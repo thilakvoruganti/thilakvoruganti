@@ -1,0 +1,42 @@
+@import 'root';
+@import 'navbar';
+@import 'home';
+@import 'about';
+@import 'projects';
+
+.main{
+    margin: 0px auto;
+    width: 100%;
+    // max-width: 1600px;
+    min-height: 100vh;
+    padding: 0 12.422vw 0 12.448vw;
+    // padding: 0vw 7.813vw;
+    section{
+        // max-width: 52.083vw;
+        margin: 0px auto;
+    }
+}
+
+
+
+@media screen and (max-width: 1080px) {
+    .main{
+        padding: 0 5.208vw;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .main{
+        padding: 0 50px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .main{
+        padding: 0 25px;
+    }
+  }
+
+
+

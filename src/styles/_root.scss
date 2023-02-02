@@ -1,0 +1,22 @@
+$Roboto: "Roboto", sans-serif;
+$font-s: 10px;
+$font-m: 13px;
+$font-l: 1.302vw;
+$font-xl: 13px;
+$font-xxl: 20px;
+
+
+$black: #000;
+$white: #fff;
+$orange:#FF7700;
+$grey:#303030;
+
+$transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+$transitiontf: transform 1.8s cubic-bezier(0.47,0.01,0.4,0.99);
+
+body{
+    // color: $white;
+    font-family: $Roboto;
+    padding: 0;
+    margin: 0;
+}

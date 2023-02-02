@@ -1,0 +1,131 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.604vw 4.427vw;
+    // position: fixed;
+    width: 100%;
+    .logo{
+        svg{
+            width: 4.703vw;
+            height: 2.63vw;
+        }
+    }
+    .notch{
+        display: flex;
+        background-color: $grey;
+        height: 5.208vw;
+        width: 52.083vw;
+        border-radius: 1.563vw;
+        justify-content: space-around;
+        align-items: center;
+        font-size: $font-l;
+        transform: translateY(-0.521vw);
+        transition: $transition;
+        color: $white;
+        div{
+            cursor: pointer;
+            &:hover{
+                color: $orange;
+            }
+        }
+    }
+    .nthon{
+        transform: translateY(-8.333vw);
+    }
+    .menu-icon{
+        padding-top: 0.521vw;
+        width: 2.604vw;
+        height: 2.63vw;
+    }
+}
+
+input#menu {
+    display: none;
+}
+
+.icon {
+    background: transparent;
+    cursor: pointer;
+    display: block;
+    width: 2.604vw;
+    height: 2.63vw;
+    padding: 1.302vw;
+}
+
+label.icon {
+    position: relative;
+    z-index: 200;
+}
+
+.icon .menu::before{
+    background: $orange;
+    content: '';
+    display: block;
+    height: 0.26vw;
+    position: absolute;
+    transition: background ease .3s, top ease .3s .3s, transform ease .3s;
+    width: 2.604vw;
+}
+.icon .menu{
+    background: $orange;
+    content: '';
+    display: block;
+    height: 0.26vw;
+    position: absolute;
+    transition: background ease .3s, top ease .3s .3s, transform ease .3s;
+    width: 2.083vw;
+}
+.icon .menu::after {
+    background: $orange;
+    content: '';
+    display: block;
+    height: 0.26vw;
+    position: absolute;
+    transition: background ease .3s, top ease .3s .3s, transform ease .3s;
+    width: 1.563vw;
+}
+
+// .icon:hover .menu,
+// .icon:hover .menu::before,
+// .icon:hover .menu::after {
+//     background: #47B74B;
+// }
+
+.icon .menu {
+    left: 0.521vw;
+    top: 1.146vw;
+}
+
+.icon .menu::before {
+    top: -0.885vw;
+    right: 0;
+}
+
+.icon .menu::after {
+    top: 0.833vw;
+    right: 0;
+}
+
+#menu:checked + .icon .menu {
+    background: transparent;
+}
+
+#menu:checked + .icon .menu::before {
+    transform: rotate(45deg);
+}
+
+#menu:checked + .icon .menu::after {
+    transform: rotate(-45deg);
+    width: 2.604vw;
+}
+
+#menu:checked + .icon .menu::before,
+#menu:checked + .icon .menu::after {
+    top: 0;
+    transition: top ease .3s, transform ease .3s .3s;
+}
+
+#menu:checked ~ nav {
+    width: 10.417vw;
+}
+
