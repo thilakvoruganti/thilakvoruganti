@@ -10,9 +10,10 @@ $black: #000;
 $white: #fff;
 $orange:#FF7700;
 $grey:#303030;
+$halfwhite: #F5F5F7;
 
 $transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-$transitiontf: transform 1.8s cubic-bezier(0.47,0.01,0.4,0.99);
+$transitiontf: all 1.8s cubic-bezier(0.47,0.01,0.4,0.99);
 
 body{
     // color: $white;

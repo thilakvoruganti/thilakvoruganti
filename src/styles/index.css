@@ -179,6 +179,11 @@ label.icon {
   font-size: 1.25vw;
   line-height: 2.083vw;
   margin-bottom: 1.042vw;
+  opacity: 0;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.about .ampo {
+  opacity: 1;
 }
 .about .abme {
   grid-area: about;
@@ -213,12 +218,16 @@ label.icon {
 .about .tldsply {
   grid-area: tldsply;
   min-width: 31.25vw;
-  width: 31.25vw;
-  height: 41.667vw;
+  --tldwidth: 31.25vw;
+  --tldheight: 41.667vw;
+  width: var(--tldwidth);
+  height: var(--tldheight);
   border: 0.156vw solid #FF7700;
   border-radius: 1.563vw;
   margin-right: 6.823vw;
   padding: 2.656vw 2.135vw 2.656vw 2.135vw;
+  transform: translate(-41.552vw, 0);
+  transition: all 1.8s cubic-bezier(0.47, 0.01, 0.4, 0.99);
 }
 .about .tldsply .tf {
   text-align: right;
@@ -267,7 +276,12 @@ label.icon {
 .about .tldsply .tlt-tcs .tld-h2 {
   margin-bottom: 2.031vw;
 }
+.about .tldst {
+  transform: translate(0, 0);
+}
 .about .tl {
+  transform: translate(53.751vw, 0);
+  transition: all 1.8s cubic-bezier(0.47, 0.01, 0.4, 0.99);
   grid-area: tl;
 }
 .about .tl .nv-it {
@@ -309,6 +323,72 @@ label.icon {
   height: 0.313vw;
   position: relative;
   top: -2.866vw;
+}
+.about .tlbtns {
+  transform: translate(0, 0);
+}
+
+.projects {
+  padding: 11.979vw 16.146vw;
+  background-color: #F5F5F7;
+}
+.projects h1 {
+  margin-bottom: 5.208vw;
+  font-size: 6.667vw;
+  line-height: 5vw;
+  color: #FF7700;
+  transform: matrix(1.5, 0, 0, 1.5, 315, 0);
+}
+.projects h2 {
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 3.333vw;
+  color: #FF7700;
+}
+.projects p {
+  font-weight: 400;
+  font-size: 1.25vw;
+  line-height: 2.083vw;
+}
+.projects button {
+  padding: 0;
+  background: none;
+  margin: 0;
+  border: 0;
+  font-weight: 400;
+  font-size: 1.25vw;
+  line-height: 2.083vw;
+  display: flex;
+  align-items: center;
+}
+.projects .btnarw {
+  width: 1.875vw;
+  height: 1.25vw;
+  margin-left: 1.042vw;
+}
+.projects .pjc {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.projects .pjc .pj {
+  background: #FFFFFF;
+  box-shadow: 0vw 0.208vw 0.208vw rgba(0, 0, 0, 0.25);
+  border-radius: 1.563vw;
+  padding: 3.385vw 2.344vw;
+  width: 31.25vw;
+  height: 26.042vw;
+  margin-bottom: 5.208vw;
+  margin-right: 5.208vw;
+  transform: translate(0, 5.208vw);
+  opacity: 0;
+  transition: all 1.8s cubic-bezier(0.47, 0.01, 0.4, 0.99);
+}
+.projects .pjc .pj:nth-child(2n) {
+  margin-right: 0;
+}
+.projects .pjc .pjct {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 .main {

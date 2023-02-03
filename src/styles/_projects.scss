@@ -1,0 +1,64 @@
+.projects{
+    padding: 11.979vw 16.146vw;
+    background-color: $halfwhite;
+    h1{
+        margin-bottom: 5.208vw;
+        font-size: 6.667vw;
+        line-height: 5vw;
+        color: $orange;
+        transform: matrix(1.5,0,0,1.5,315,0);
+    }
+    h2{
+        font-weight: 400;
+        font-size: 2.5vw;
+        line-height: 3.333vw;
+        color: $orange;
+    }
+    p{
+        font-weight: 400;
+        font-size: 1.25vw;
+        line-height: 2.083vw;
+    }
+    button{
+        padding: 0;
+        background: none;
+        margin: 0;
+        border: 0;
+        font-weight: 400;
+        font-size: 1.25vw;
+        line-height: 2.083vw;
+        display: flex;
+        align-items: center;
+    }
+    .btnarw{
+        // width="36" height="24"
+        width:1.875vw;
+        height:1.25vw;
+        margin-left: 1.042vw;
+
+    }
+    .pjc{
+        display: grid;
+        grid-template-columns: auto auto;
+        .pj{
+            background: #FFFFFF;
+            box-shadow: 0vw 0.208vw 0.208vw rgba(0, 0, 0, 0.25);
+            border-radius: 1.563vw;
+            padding: 3.385vw 2.344vw;
+            width: 31.25vw;
+            height: 26.042vw;
+            margin-bottom: 5.208vw;
+            margin-right: 5.208vw;
+            transform: translate(0,5.208vw);
+            opacity: 0;
+            transition: $transitiontf;
+            &:nth-child(2n){
+                margin-right: 0;
+            }
+        }
+        .pjct{
+            transform: translate(0,0);
+            opacity: 1;
+        }
+    }
+}

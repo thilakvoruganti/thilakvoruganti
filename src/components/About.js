@@ -1,12 +1,56 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 
 
 const About = () => {
 
+  const height = window.innerHeight/1080
+
+  const[amtle,setAmtle] = useState(1.5)
+  // const[amtley,setAmtley] = useState(1.5)
+
+  const[ampo, setAmpo] = useState(false)
+  const[ampt, setAmpt] = useState(false)
+  const[ampth, setAmpth] = useState(false)
+  const[tldst,setTldst] = useState(false)
+  const[tlbtns,setTlbtns] = useState(false)
+
+  useEffect(()=>{
+
+    const sy = () => {
+
+      if(window.scrollY > 125*height  &&  window.scrollY < 690*height){
+          const cof = 1.5-(0.5/(690*height-125*height))*(window.scrollY-125*height)
+          if(amtle > 1){
+            setAmtle(cof)
+          }
+      }
+      if(window.scrollY > 700*height){
+        setAmpo(true)
+        setAmpt(true)
+        setAmpth(true)
+      }
+      if(window.scrollY < 700*height){
+        setAmpo(false)
+        setAmpt(false)
+        setAmpth(false)
+      }
+      if(window.scrollY > 850*height){
+        setTldst(true)
+        setTlbtns(true)
+      }
+      if(window.scrollY < 700*height){
+        setTldst(false)
+        setTlbtns(false)
+      }
+    }
+
+    const scroll = window.addEventListener('scroll', sy)
+  })
+
   return (
     <section className='about'>
-      <div className='tldsply tab-content' id="tl-tabContent">
+      <div className={`tldsply ${tldst?'tldst':''} tab-content`} id="tl-tabContent">
         <div className="tl-tab tlt-gp tab-pane fade show active" id="tl-home" role="tabpanel" aria-labelledby="tl-home-tab" tabIndex="0">
         <div className='tf'>Present - March 2022</div>
           <h2 className='tld-h1'>Personal goal pursuit</h2>
@@ -40,10 +84,10 @@ const About = () => {
         </div>
       </div>
       <div className='abme'>
-        <h1>About me.</h1>
-        <p>I am a frontend developer who enjoys the challenge of creating something from scratch and bringing it to life on the web.I am a frontend developer who enjoys the challenge of creating something from scratch and bringing it to life on the web.</p>
-        <p>I am a frontend developer who enjoys the challenge of creating something from scratch and bringing it to life on the web.I am a frontend developer who enjoys the challenge of creating something from scratch and bringing it to life on the web.</p>
-        <p>I am a frontend developer who enjoys </p>
+        <h1 className='am-tle' style={{transform:`matrix(${amtle}, 0, 0, ${amtle}, 0, 0)`}} >About me.</h1>
+        <p className={`${ampo?"ampo":""}`}>I am a frontend developer who enjoys the challenge of creating something from scratch and bringing it to life on the web.I am a frontend developer who enjoys the challenge of creating something from scratch and bringing it to life on the web.</p>
+        <p className={`${ampt?"ampo":""}`}>I am a frontend developer who enjoys the challenge of creating something from scratch and bringing it to life on the web.I am a frontend developer who enjoys the challenge of creating something from scratch and bringing it to life on the web.</p>
+        <p className={`${ampth?"ampo":""}`}>I am a frontend developer who enjoys </p>
         <div className='d-flex'>
           <ul>
             <li>Javascript</li>
@@ -57,7 +101,7 @@ const About = () => {
           </ul>
         </div>
       </div>
-      <div className='tl nav nav-pills' id="tl-tab" role="tablist">
+      <div className={`tl ${tlbtns?'tlbtns':''} nav nav-pills`} id="tl-tab" role="tablist">
         <div className="nv-it nav-item" role="presentation">
           <button className="tl-btn tl-gp nav-link active " id="tl-home-tab" data-bs-toggle="pill" data-bs-target="#tl-home" type="button" role="tab" aria-controls="tl-home" aria-selected="true">
             <svg className='svgtl sgp' xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">

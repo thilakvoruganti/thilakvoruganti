@@ -23,6 +23,11 @@
         font-size: 1.25vw;
         line-height: 2.083vw;
         margin-bottom: 1.042vw;
+        opacity: 0;
+        transition: $transition;
+    }
+    .ampo{
+        opacity: 1;
     }
     .abme{
         grid-area: about;
@@ -57,12 +62,16 @@
     .tldsply{
         grid-area: tldsply;
         min-width: 31.25vw;
-        width: 31.25vw;
-        height: 41.667vw;
+        --tldwidth : 31.25vw;
+        --tldheight : 41.667vw;
+        width: var(--tldwidth);
+        height: var(--tldheight);
         border: 0.156vw solid #FF7700;
         border-radius: 1.563vw;
         margin-right: 6.823vw;
         padding: 2.656vw 2.135vw 2.656vw 2.135vw;
+        transform: translate(-41.552vw,0);
+        transition: $transitiontf;
         .tf{
             text-align: right;
             font-weight: 400;
@@ -121,7 +130,12 @@
             }
         }
     }
+    .tldst{
+        transform: translate(0,0);
+    }
     .tl{
+        transform: translate(53.751vw,0);
+        transition: $transitiontf;
         grid-area: tl;
         .nv-it {
             width: 5.208vw;
@@ -163,5 +177,8 @@
             position: relative;
             top:-2.866vw;
         }
+    }
+    .tlbtns{
+        transform: translate(0,0);
     }
 }
