@@ -2,7 +2,7 @@ import React, { useState,useEffect } from 'react'
 
 const Projects = () => {
 
-  const [pjtl,setPjtl] = useState(1.5)
+  const [pjtl,setPjtl] = useState(1)
   const [pjc1,setPjc1] = useState(false)
   const [pjc2,setPjc2] = useState(false)
   const [pjc3,setPjc3] = useState(false)
@@ -15,12 +15,12 @@ const Projects = () => {
   useEffect(()=>{
 
     const sy = () => {
-      if(window.scrollY > 1360*height  &&  window.scrollY < 1925*height && pjtlu){
-        const cof = 1.5-(0.5/(1925*height-1360*height))*(window.scrollY-1360*height)
-        if(pjtl > 1){
-          setPjtl(cof)
-        }
-      }
+      // if(window.scrollY > 1360*height  &&  window.scrollY < 1925*height && pjtlu){
+      //   const cof = 1.5-(0.5/(1925*height-1360*height))*(window.scrollY-1360*height)
+      //   if(pjtl > 1){
+      //     setPjtl(cof)
+      //   }
+      // }
 
       if(window.scrollY > 1925*height){
         setPjc1(true)

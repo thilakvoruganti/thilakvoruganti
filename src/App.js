@@ -1,24 +1,22 @@
 import React from 'react';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import './styles/index.css'
-import About from './components/About';
-import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
+import About from './components/About';
+import Footer from './components/Footer';
 
 
 
 function App() {
-
-
-
   return (
     <div className="App">
-      <Navbar/>
-      <div className='content'>
-        <Home/>
-        <About/>
-        <Projects/>
-      </div>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<About />} />
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
     </div>
   );
 }

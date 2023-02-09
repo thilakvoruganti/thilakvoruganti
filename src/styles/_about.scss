@@ -1,184 +1,88 @@
-.about{
-    background-color: $white;
-    color: $black;
-    padding-top:9.063vw;
-    padding-bottom:9.063vw;
-    padding-left: 8.177vw;
+.abt{
+    font-weight: 400;
     display: grid;
-    grid-template-areas: "tldsply about" "tldsply tl";
-    overflow: hidden;
+    grid-template-areas:
+        "title title"
+        "aboutme skills";
     h1{
-        margin-bottom: 1.458vw;
         font-size: 6.667vw;
-        line-height: 5vw;
-        color: $orange;
+        line-height: 6.667vw;
+        font-weight: 400;
+        margin-bottom: 1.615vw;
+        font-family: $Opensans;
     }
     h2{
-        font-weight: 400;
         font-size: 1.667vw;
-        line-height: 1.667vw;
+        line-height: 2.083vw;
+        font-family: $Opensans;
+        margin-bottom: 1.562vw;
     }
     p{
-        font-weight: 400;
         font-size: 1.25vw;
         line-height: 2.083vw;
+        font-family: $Roboto;
         margin-bottom: 1.042vw;
-        opacity: 0;
-        transition: $transition;
-    }
-    .ampo{
-        opacity: 1;
-    }
-    .abme{
-        grid-area: about;
-        margin-right: 10.677vw;
-        ul{
-            margin: 0;
-            margin-right: 4.063vw;
-            margin-bottom: 2.083vw;
-                &:last-child{
-                    margin-right: 0;
-                }
-                padding: 0;
-                li{
-                    font-size: 1.094vw;
-                    line-height: 1;
-                    margin-top: 0.521vw;
-                    &::marker{
-                        content:''
-                    }
-                    &::before{
-                        content: '';
-                        background-image:url('../images/arrow.svg');
-                        width: 0.781vw;
-                        height: 0.781vw;
-                        background-size: 0.781vw 0.781vw;
-                        display: inline-block;
-                        margin-right: 0.781vw;
-                    }
-                }
+        &:last-child{
+            margin-bottom: 0;
         }
     }
-    .tldsply{
-        grid-area: tldsply;
-        min-width: 31.25vw;
-        --tldwidth : 31.25vw;
-        --tldheight : 41.667vw;
-        width: var(--tldwidth);
-        height: var(--tldheight);
-        border: 0.156vw solid #FF7700;
-        border-radius: 1.563vw;
-        margin-right: 6.823vw;
-        padding: 2.656vw 2.135vw 2.656vw 2.135vw;
-        transform: translate(-41.552vw,0);
-        transition: $transitiontf;
-        .tf{
-            text-align: right;
-            font-weight: 400;
-            font-size: 1.25vw;
-            line-height: 2.083vw;
-            margin-bottom: 0.417vw;
+    .abt-a{
+        background-color: $greengrey;
+        border-radius: $radius;
+        margin-top: 1.458vw;
+        color: $white;
+        display: flex;
+        padding: 1.771vw 3.229vw 2.396vw 2.865vw;
+        justify-content: space-between;
+        margin-bottom: 1.562vw;
+        grid-area: title;
+        button{
+            font-size: 1.667vw;
+            line-height: 1.667vw;
+            padding: 1.094vw 2.292vw;
+            border-radius: $radius;
+            border:0.156vw solid $white;
+            background-color: transparent;
+            color: $white;
+            font-family: $Opensans;
         }
-        .tltgriet{
-            line-height: 2.5vw;
-        }
-        ul{
-            margin: 0;
-            padding: 0;
-            font-weight: 400;
-            font-size: 1.25vw;
-            line-height: 2.083vw;
-                li{
-                    // list-style-image:url('../images/arrow.svg');
-                    margin-bottom: 0.833vw;
-                    &:last-child{
-                        margin-bottom: 0;
-                    }
-                    &::marker{
-                        content: '';
-                        // background-image:url('../images/arrow.svg');
-                        // width: 0.781vw;
-                        // height: 0.781vw;
-                        // background-size: 0.781vw 0.781vw;
-                        // display: inline-block;
-                        // margin-right: 14.995px;
-                        // font-size: 0.781vw;
-                    }
-                    &::before{
-                        content: '';
-                        background-image:url('../images/arrow.svg');
-                        width: 0.781vw;
-                        height: 0.781vw;
-                        background-size: 0.781vw 0.781vw;
-                        display: inline-block;
-                        margin-right: 0.781vw;
-                    }
-                }
-        }
-        .tlt-tcs{
-            h2{
-                margin-bottom: 16px;
-                &:last-child{
-                    margin-bottom: 39px;
-                }
-            }
-            .tld-h1{
-                margin-bottom: 0.833vw;
-            }
-            .tld-h2{
-                margin-bottom: 2.031vw;
+        .tl-img{
+            img{
+                width: 13.021vw;
+                height: 13.021vw;
             }
         }
     }
-    .tldst{
-        transform: translate(0,0);
+    .abt-b{
+        width: 48.698vw;
+        min-width: 48.698vw;
+        height: 26.562vw;
+        min-height: 26.562vw;
+        border-radius: $radius;
+        background-color: $black;
+        color: $white;
+        padding: 3.125vw 2.708vw;
+        margin-right: 0.521vw;
+        grid-area: aboutme;
     }
-    .tl{
-        transform: translate(53.751vw,0);
-        transition: $transitiontf;
-        grid-area: tl;
-        .nv-it {
-            width: 5.208vw;
-            height: 5.208vw;
-            z-index: 1;
+    .abt-c{
+        width: 48.698vw;
+        min-width: 48.698vw;
+        height: 26.562vw;
+        min-height: 26.562vw;
+        border-radius: $radius;
+        background-color: $neon;
+        padding: 3.125vw 2.708vw;
+        grid-area: skills;
+        button{
+            border:0.052vw solid $black;
+            background-color: transparent;
+            border-radius: $radius;
+            font-size: 1.667vw;
+            line-height: 1.667vw;
+            padding: 0.521vw 1.719vw;
+            margin-right: 0.781vw;
+            margin-bottom: 0.781vw;
         }
-        .tl-btn{
-            padding: 0;
-            background: none;
-            margin: 0;
-        }
-        .tl-tcs{
-            position: relative;
-            left: 12.708vw;
-        }
-        .svgtl{
-            width: 5.208vw;
-            height: 5.208vw;
-            display: block;
-        }
-        .svgtlh{
-            width: 5.208vw;
-            height: 5.208vw;
-            display: none;
-        }
-        .active .svgtl{
-            display: none;
-        }
-        .active .svgtlh{
-            display: block;
-        }
-        .tl-griet{
-            position: relative;
-            left: 25.417vw;
-        }
-        .sline{
-            width: 53.751vw;
-            height: 0.313vw;
-            position: relative;
-            top:-2.866vw;
-        }
-    }
-    .tlbtns{
-        transform: translate(0,0);
     }
 }
