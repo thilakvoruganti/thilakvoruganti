@@ -9,3 +9,45 @@
     line-height: 0.833vw;
     margin-top: 1.563vw;
 }
+@media screen and (max-width: 1280px) {
+    .ftr{
+        border: 1px solid $black;
+        height:30px;
+        border-radius: $radius;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .ftr{
+        border: 0.098vw solid $black;
+        height: 2.93vw;
+        border-radius: $radius-t;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.563vw;
+        line-height: 1.563vw;
+        margin-top: 1.953vw;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .ftr{
+        border: 1px solid $black;
+        height: 7.246vw;
+        border-radius: $radius-m;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.899vw;
+        line-height: 2.899vw;
+        margin-top: 2.415vw;
+    }
+}

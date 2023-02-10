@@ -9,6 +9,7 @@
         line-height: 6.667vw;
         font-weight: 400;
         margin-bottom: 1.615vw;
+        margin-top: 0.573vw;
         font-family: $Opensans;
     }
     h2{
@@ -62,7 +63,7 @@
         background-color: $black;
         color: $white;
         padding: 3.125vw 2.708vw;
-        margin-right: 0.521vw;
+        margin-right: 1.563vw;
         grid-area: aboutme;
     }
     .abt-c{
@@ -83,6 +84,277 @@
             padding: 0.521vw 1.719vw;
             margin-right: 0.781vw;
             margin-bottom: 0.781vw;
+        }
+    }
+}
+@media screen and (max-width: 1280px) {
+    .abt{
+        font-weight: 400;
+        display: grid;
+        grid-template-areas:
+            "title title"
+            "aboutme skills";
+        h1{
+            font-size: 7.5vw;
+            line-height: 10.234vw;
+            margin-bottom: 0.703vw;
+        }
+        h2{
+            font-size: 1.875vw;
+            line-height: 1.875vw;
+            margin-bottom: 2.344vw;
+        }
+        p{
+            font-size: 1.563vw;
+            line-height: 2.5vw;
+            font-family: $Roboto;
+            margin-bottom: 2.344vw;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        .abt-a{
+            background-color: $greengrey;
+            border-radius: $radius-d;
+            color: $white;
+            display: flex;
+            padding: 5.625vw 5.469vw 5.859vw 4.297vw;
+            justify-content: space-between;
+            margin-top: 2.344vw;
+            margin-bottom: 2.344vw;
+            grid-area: title;
+            button{
+                font-size: 1.875vw;
+                line-height: 1.875vw;
+                padding: 1.406vw 3.125vw;
+                border-radius: $radius-d;
+                border:0.234vw solid $white;
+                background-color: transparent;
+                color: $white;
+                font-family: $Opensans;
+            }
+            .tl-img{
+                margin-bottom: 0;
+                img{
+                    width: 15.625vw;
+                    height: 15.625vw;
+                }
+            }
+        }
+        .abt-b{
+            width: 48.047vw;
+            height: 39.844vw;
+            min-width: 48.047vw;
+            min-height: 39.844vw;
+            border-radius: $radius-d;
+            background-color: $black;
+            color: $white;
+            padding: 4.141vw 3.516vw 4.141vw 3.594vw;
+            margin-right: 2.344vw;
+            grid-area: aboutme;
+        }
+        .abt-c{
+            width: 48.047vw;
+            height: 39.844vw;
+            min-width: 48.047vw;
+            min-height: 39.844vw;
+            border-radius: $radius-d;
+            background-color: $neon;
+            padding: 4.141vw 3.516vw 4.141vw 3.594vw;
+            grid-area: skills;
+            margin-top: 0;
+            button{
+                border:0.078vw solid $black;
+                background-color: transparent;
+                border-radius: $radius-m;
+                font-size: 1.875vw;
+                line-height: 2.578vw;
+                padding: 0.313vw 1.719vw;
+                margin-right: 0.781vw;
+                margin-bottom: 0.781vw;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1024px) {
+    .abt{
+        font-weight: 400;
+        display: grid;
+        grid-template-areas:
+            "title title"
+            "aboutme skills";
+        h1{
+            font-size: 9.375vw;
+            line-height: 12.793vw;
+            margin-bottom: 0;
+        }
+        h2{
+            font-size: 3.125vw;
+            line-height: 4.297vw;
+            margin-bottom: 2.93vw;
+        }
+        p{
+            font-size: 1.855vw;
+            line-height: 2.734vw;
+            font-family: $Roboto;
+            margin-bottom: 2.93vw;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        .abt-a{
+            background-color: $greengrey;
+            border-radius: $radius-t;
+            color: $white;
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 3.418vw 0 4.785vw 5.371vw;
+            justify-content: space-between;
+            margin-top: 1.953vw;
+            margin-bottom: 1.953vw;
+            grid-area: title;
+            button{
+                font-size: 3.125vw;
+                line-height: 3.125vw;
+                padding: 1.367vw 3.223vw;
+                border-radius: $radius-t;
+                border:2.478px solid $white;
+                background-color: transparent;
+                color: $white;
+                font-family: $Opensans;
+            }
+            .tl-img{
+                margin-bottom: 0;
+                img{
+                    width: 17.09vw;
+                    height: 17.09vw;
+                }
+            }
+        }
+        .abt-b{
+            width: 48.047vw;
+            height: 65.977vw;
+            min-width: 48.047vw;
+            min-height: 65.977vw;
+            border-radius: $radius-t;
+            background-color: $black;
+            color: $white;
+            padding: 4.395vw 4.785vw;
+            margin-right: 1.953vw;
+            grid-area: aboutme;
+        }
+        .abt-c{
+            width: 48.047vw;
+            height: 65.977vw;
+            min-width: 48.047vw;
+            min-height: 65.977vw;
+            border-radius: $radius-t;
+            background-color: $neon;
+            padding: 4.395vw 4.785vw;
+            grid-area: skills;
+            margin-top: 0;
+            button{
+                border:0.098vw solid $black;
+                background-color: transparent;
+                border-radius: $radius-m;
+                font-size: 2.344vw;
+                line-height: 3.125vw;
+                padding: 0.488vw 1.465vw;
+                margin-right: 0.977vw;
+                margin-bottom: 0.977vw;
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .abt{
+        font-weight: 400;
+        display: grid;
+        grid-template-areas:
+            "title"
+            "aboutme"
+            "skills";
+        h1{
+            font-size: 9.662vw;
+            line-height: 11.836vw;
+            margin-bottom: 2.415vw;
+        }
+        h2{
+            font-size: 4.831vw;
+            line-height: 6.522vw;
+            margin-bottom: 2.657vw;
+        }
+        p{
+            font-size: 3.865vw;
+            line-height: 5.797vw;
+            font-family: $Roboto;
+            margin-bottom: 2.174vw;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        .abt-a{
+            background-color: $greengrey;
+            border-radius: $radius-mc;
+            margin-top: 6.036px;
+            color: $white;
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 5.797vw 0 5.797vw 6.763vw;
+            justify-content: space-between;
+            margin-bottom: 2.415vw;
+            grid-area: title;
+            margin-top: 4.831vw;
+            button{
+                font-size: 4.831vw;
+                line-height: 6.522vw;
+                padding: 1.449vw 4.106vw;
+                border-radius: $radius-m;
+                border:0.242vw solid $white;
+                background-color: transparent;
+                color: $white;
+                font-family: $Opensans;
+            }
+            .tl-img{
+                margin-bottom: 2.415vw;
+                img{
+                    width: 31.401vw;
+                    height: 31.401vw;
+                }
+            }
+        }
+        .abt-b{
+            width: unset;
+            min-width: unset;
+            height:  unset;
+            min-height:  unset;
+            border-radius: $radius-mc;
+            background-color: $black;
+            color: $white;
+            padding: 7.729vw 6.763vw;
+            margin-right: 0;
+            grid-area: aboutme;
+        }
+        .abt-c{
+            width: unset;
+            min-width: unset;
+            height:  unset;
+            min-height:  unset;
+            border-radius: $radius-mc;
+            background-color: $neon;
+            padding: 7.729vw 6.763vw;
+            grid-area: skills;
+            margin-top: 2.415vw;
+            button{
+                border:0.215px solid $black;
+                background-color: transparent;
+                border-radius: $radius-m;
+                font-size: 3.865vw;
+                line-height: 5.797vw;
+                padding: 0.725vw 3.865vw;
+                margin-right: 2.415vw;
+                margin-bottom: 2.415vw;
+            }
         }
     }
 }

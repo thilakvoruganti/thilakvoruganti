@@ -20,6 +20,9 @@ $greengrey:#839292;
 
 $radius:2.604vw;
 $radius-m:12.077vw;
+$radius-mc:25px;
+$radius-t:4.883vw;
+$radius-d:50px;
 
 
 $transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
@@ -28,7 +31,7 @@ $transitiontf: all 0.5s cubic-bezier(0.47,0.01,0.4,0.99);
 body{
     // color: $white;
     font-family:$Opensans;
-    padding: 0.521vw;
+    padding: 10px;
     margin: 0;
     background-color: $white;
 }

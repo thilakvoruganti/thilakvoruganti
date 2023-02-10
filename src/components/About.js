@@ -1,10 +1,13 @@
 import React from 'react'
 
 const About = () => {
+
+  const height = window.innerHeight
+  const width = window.innerWidth
   return (
     <section className='abt'>
       <div className='abt-a'>
-        <div>
+        <div className='tl-t'>
           <h1>Thilak Voruganti</h1>
           <button>Frontend Developer</button>
         </div>
