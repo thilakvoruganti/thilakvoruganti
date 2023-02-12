@@ -1,0 +1,343 @@
+.tl{
+    margin-top: 30.01px;
+    display: grid;
+    grid-template-areas: 'pgp tcs griet';
+    .tl-i{
+        margin-right: 20.006px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    .pgp-i{
+        grid-area: pgp;
+    }
+    .tcs-i{
+        grid-area: tcs;
+    }
+    .griet-i{
+        grid-area: griet;
+    }
+    .tl-c{
+        border-radius: $radius;
+        width: 613.325px;
+        height: 870.01px;
+        padding: 49.997px 42.509px;
+        color: $white;
+        button{
+            font-size: 24px;
+            line-height: 32.006px;
+            background: none;
+            border:2.995px solid $white;
+            padding: 7.507px 33.005px;
+            color: $white;
+            border-radius: $radius;
+        }
+        h1{
+            font-size: 39.994px;
+            line-height: 63.994px;
+            margin:20.006px 0 23px;
+        }
+        .tl-h{
+            padding-bottom: 23.002px;
+            border-bottom: 2.995px solid $white;
+            margin-bottom: 20.006px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h2{
+                font-size: 32.006px;
+                line-height: 44.006px;
+                margin: 0;
+            }
+            button{
+                font-size: 24px;
+                line-height: 32.006px;
+                padding: 7.507px 33.005px;
+                border: 2.995px solid $white;
+                color: $white;
+            }
+        }
+        p{
+            font-size: 24px;
+            line-height: 33.005px;
+            margin-bottom: 12px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .pgp-g{
+        background-color: $green;
+    }
+    .pgp-y{
+        background-color: $yellow;
+    }
+    .tcs-p{
+        background-color: $lightpurple;
+        color: $black;
+        button{
+            color: $black;
+            border-color: $black;
+        }
+        .tl-h{
+            border-bottom: 2.995px solid $black;
+            button{
+                border-color: $black;
+                color: $black;
+            }
+        }
+    }
+    .tcs-g{
+        background-color: $greengrey;
+    }
+    .griet-p{
+        background-color: $purple;
+    }
+    .griet-b{
+        background-color: $blue;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .tl{
+        margin-top: 30.01px;
+        display: grid;
+        grid-template-areas: 'pgp tcs' 'griet griet';
+        .tl-i{
+            margin-right: 30.006px;
+            margin-bottom: 30px;
+            &:last-child{
+                margin-right: 0;
+                margin-bottom: 0;
+            }
+        }
+        .tl-c{
+            border-radius: $radius-d;
+            width: 615px;
+            height: 798.5px;
+            padding: 49.997px 42.509px;
+            color: $white;
+            button{
+                font-size: 24px;
+                line-height: 24px;
+                border:2.995px solid $white;
+                padding: 11.507px 33.005px;
+                border-radius: $radius-d;
+            }
+            h1{
+                font-size: 40px;
+                line-height: 54px;
+                margin:20.006px 0 23px;
+            }
+            .tl-h{
+                padding-bottom: 23.002px;
+                border-bottom: 2.995px solid $white;
+                margin-bottom: 20.006px;
+                h2{
+                    font-size: 32px;
+                    line-height: 40px;
+                    margin: 0;
+                }
+                button{
+                    font-size: 24px;
+                    line-height: 24px;
+                    padding:11.507px 33.005px;
+                    border: 2.995px solid $white;
+                }
+            }
+            p{
+                font-size: 20px;
+                line-height: 32px;
+                margin-bottom: 12px;
+            }
+        }
+        .tcs-p{
+            background-color: $lightpurple;
+            color: $black;
+            button{
+                color: $black;
+                border-color: $black;
+            }
+            .tl-h{
+                border-bottom: 2.995px solid $black;
+                button{
+                    border-color: $black;
+                    color: $black;
+                }
+            }
+        }
+        .griet{
+            width: 1260px;
+            height: 442.5px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .tl{
+        margin-top: 20.01px;
+        display: grid;
+        grid-template-areas: 'pgp tcs' 'griet griet';
+        .tl-i{
+            margin-right: 20.006px;
+            margin-bottom: 20px;
+            &:last-child{
+                margin-right: 0;
+                margin-bottom: 0;
+            }
+        }
+        .tl-c{
+            border-radius: $radius-t;
+            width: 492px;
+            height: 859.5px;
+            padding: 40px 34.5px;
+            button{
+                font-size: 20px;
+                line-height: 20px;
+                background: none;
+                border:2.995px solid $white;
+                padding: 7px 20px;
+                border-radius: $radius-t;
+            }
+            h1{
+                font-size: 32px;
+                line-height: 44px;
+                margin:20.006px 0 23px;
+            }
+            .tl-h{
+                padding-bottom: 23.002px;
+                border-bottom: 2.995px solid $white;
+                margin-bottom: 17px;
+                display: flex;
+                justify-content: space-between;
+                h2{
+                    font-size: 24px;
+                    line-height: 40px;
+                    margin: 0;
+                }
+                button{
+                    font-size: 20px;
+                    line-height: 20px;
+                    padding:7px 20.005px;
+                    border: 2.995px solid $white;
+                }
+            }
+            p{
+                font-size: 20px;
+                line-height: 32px;
+                margin-bottom: 17px;
+            }
+        }
+        .tcs-p{
+            background-color: $lightpurple;
+            color: $black;
+            button{
+                color: $black;
+                border-color: $black;
+            }
+            .tl-h{
+                border-bottom: 2.995px solid $black;
+                button{
+                    border-color: $black;
+                    color: $black;
+                }
+            }
+        }
+        .griet{
+            width: 1004px;
+            height: 450.5px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tl{
+        margin-top: 20.01px;
+        display: grid;
+        grid-template-areas: 'pgp' 'tcs' 'griet';
+        .tl-i{
+            margin-right: 0;
+            margin-bottom: 20px;
+            &:last-child{
+                margin-right: 0;
+                margin-bottom: 0;
+            }
+        }
+        .tl-c{
+            border-radius: $radius-mc;
+            width: 394px;
+            // height: 646px;
+            height: unset;
+            padding: 40px 28px;
+            button{
+                font-size: 16px;
+                line-height: 22px;
+                background: none;
+                border:2.995px solid $white;
+                padding: 7.5px 20px;
+                border-radius: $radius-m;
+            }
+            .pm-c{
+                .pm-i{
+                    width: 37px;
+                    height: 37px;
+                }
+            }
+            h1{
+                font-size: 25px;
+                line-height: 34px;
+                margin:11px 0 10px;
+            }
+            .tl-h{
+                padding-bottom: 17px;
+                border-bottom: 2.995px solid $white;
+                margin-bottom: 9px;
+                display: flex;
+                justify-content: space-between;
+                h2{
+                    font-size: 20px;
+                    line-height: 27px;
+                    margin: 0;
+                }
+                button{
+                    font-size: 16px;
+                    line-height: 22px;
+                    background: none;
+                    border:2.995px solid $white;
+                    padding: 7.5px 20px;
+                    border-radius: $radius-m;
+                }
+            }
+            p{
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 9px;
+            }
+        }
+        .tcs-p{
+            background-color: $lightpurple;
+            color: $black;
+            button{
+                color: $black;
+                border-color: $black;
+            }
+            .tl-h{
+                border-bottom: 2.995px solid $black;
+                button{
+                    border-color: $black;
+                    color: $black;
+                }
+            }
+        }
+        .pgp{
+            height: 442.5px;
+        }
+        .tcs{
+            height: 658.5px;
+        }
+        .griet{
+            width: 394px;
+            height: 477.5px;
+        }
+    }
+}

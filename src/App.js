@@ -4,6 +4,8 @@ import './styles/index.css'
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
+import Timeline from './components/Timeline';
 
 
 
@@ -14,6 +16,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<About />} />
+          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/timeline" element={<Timeline />} />
         </Routes>
         <Footer/>
       </BrowserRouter>

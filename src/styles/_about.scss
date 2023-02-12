@@ -184,14 +184,14 @@
             "title title"
             "aboutme skills";
         h1{
-            font-size: 9.375vw;
-            line-height: 12.793vw;
-            margin-bottom: 0;
+            font-size: 6.25vw;
+            line-height: 8.496vw;
+            margin-bottom: 2.344vw;
         }
         h2{
             font-size: 3.125vw;
             line-height: 4.297vw;
-            margin-bottom: 2.93vw;
+            margin-bottom: 2.344vw;
         }
         p{
             font-size: 1.855vw;
@@ -208,13 +208,13 @@
             color: $white;
             display: flex;
             flex-direction: column-reverse;
-            padding: 3.418vw 0 4.785vw 5.371vw;
+            padding: 5.371vw 4.883vw;
             justify-content: space-between;
             margin-top: 1.953vw;
             margin-bottom: 1.953vw;
             grid-area: title;
             button{
-                font-size: 3.125vw;
+                font-size: 2.344vw;
                 line-height: 3.125vw;
                 padding: 1.367vw 3.223vw;
                 border-radius: $radius-t;

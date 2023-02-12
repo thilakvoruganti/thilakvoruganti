@@ -32,6 +32,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            cursor: pointer;
         }
     }
     .sr-c{
@@ -95,6 +96,10 @@
         }
     }
 }
+.bc-active{
+    background-color: $black;
+    color: $white;
+}
 .nvgtn-m{
     display: none;
 }
@@ -103,9 +108,15 @@
         display: none;
     }
     .nvgtn-m{
+        --mpadding-l: 0.781vw;
         --transition: $black ease .3s, top ease .3s .3s, transform ease .3s;
-        padding: 0.781vw;
-        border:0.078vw solid $black;
+        --mborderw-l: 0.078vw;
+        --mborders-l: solid;
+        --mborderc-l: $black;
+        border-width: var(--mborderw-l);
+        border-style: var(--mborders-l);
+        border-color: var(--mborderc-l);
+        padding: var(--mpadding-l);
         border-radius: $radius-d;
         font-weight: 400;
         font-size: 1.875vw;
@@ -122,17 +133,19 @@
         }
         .sr-c{
             display: flex;
-            border: 0.078vw solid $black;
+            border-width: var(--mborderw-l);
+            border-style: var(--mborders-l);
+            border-color: var(--mborderc-l);
             border-radius: $radius-t;
-            padding: 0.782vw;
-            width: 65.938vw;
+            padding: var(--mpadding-l);
+            width: 81.25vw;
             height: 6.25vw;
             justify-content: space-between;
             .socials{
                 display: flex;
                 .social{
-                    width: 60px;
-                    height: 60px;
+                    width: 4.688vw;
+                    height: 4.688vw;
                     display: block;
                     margin-right: 15px;
                     &:last-child{
@@ -157,25 +170,24 @@
                 }
             }
             .resume-c{
-                margin-left: 15.462px;
                 display: flex;
                 align-items: center;
                 width: 21.484vw;
                 height: 4.687vw;
-                border:3.098px solid $black;
+                border: var(--mborderw-l) var(--mborders-l) var(--mborderc-l);
                 border-radius: $radius-m;
                 background-color: $black;
-                padding: 0.782vw;
+                padding: var(--mpadding-l);
                 justify-content: space-between;
                 .resume{
                     color: $white;
                     display: flex;
-                    margin-left: 61.837px;
+                    margin-left: 2.813vw;
                 }
                 .arw-con{
                     width: 7.813vw;
                     height: 3.125vw;
-                    border-radius: $radius-t;
+                    border-radius: $radius-d;
                     background-color: $grey;
                     display: flex;
                     align-items: center;
@@ -188,22 +200,26 @@
         }
         .nvc{
             display: flex;
-            border:0.078vw solid $black;
+            border-width: var(--mborderw-l);
+            border-style: var(--mborders-l);
+            border-color: var(--mborderc-l);
             border-radius: $radius-t;
-            padding: 0.782vw;
+            padding: var(--mpadding-l);
             align-items: center;
             justify-content: space-between;
             margin:0;
-            margin-top: 15.462px;
+            margin-top: 0.781vw;
             .nvc-item{
-                width: 24.062vw;
-                height: 4.687vw;
-                border:0.078vw solid $black;
-                border-radius: $radius-t;
+                width: 30.729vw;
+                height: 4.688vw;
+                border-width: var(--mborderw-l);
+                border-style: var(--mborders-l);
+                border-color: var(--mborderc-l);
+                border-radius: $radius-d;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-right: 1.562vw;
+                margin-right: 1.484vw;
                 &:last-child{
                     margin-right: 0;
                 }
@@ -211,11 +227,12 @@
         }
         .nvc-m{
             display: flex;
-            padding: 0.781vw;
+            padding: var(--mpadding-l);
             justify-content: space-between;
             align-items: center;
             border-radius: $radius-m;
             color: $white;
+            margin-top: -1.563vw;
             .menu-icon{
                 width: 7.813vw;
                 height: 3.125vw;
@@ -228,6 +245,7 @@
             height: 4.688vw;
             background-color: $black;
             padding-left:2.656vw;
+            margin-top: 0px;
         }
         input#menu {
             display: none;
@@ -243,7 +261,7 @@
             width: 7.813vw;
             height: 3.125vw;
             .menu{
-                --top:9.997px;
+                --top:0.781vw;
                 --mwidth-l:2.344vw;
                 --mheight-l:0.235vw;
                 left: calc((50%) - (var(--mwidth-l)/2));
@@ -315,16 +333,19 @@
         display: none;
     }
     .nvgtn-m{
-        padding: 0.977vw;
-        border:0.098vw solid $black;
+        --mpadding-m: 0.976vw;
+        --transition: $black ease .3s, top ease .3s .3s, transform ease .3s;
+        --mborderw-m: 0.097vw;
+        --mborders-m: solid;
+        --mborderc-m: $black;
+        border-width: var(--mborderw-m);
+        border-style: var(--mborders-m);
+        border-color: var(--mborderc-m);
+        padding: var(--mpadding-m);
         border-radius: $radius-t;
-        // margin: 24.74px;
         font-weight: 400;
-        font-size: 3.125vw;
-        line-height: 3.125vw;
-        // transition: $transitiontf;
-        // height: 123.668px;
-        // overflow: hidden;
+        font-size: 2.344vw;
+        line-height: 2.344vw;
         display: flex;
         .logo-c{
             display: flex;
@@ -335,96 +356,93 @@
                 height: 3.906vw;
             }
         }
-        .socials{
-            display: flex;
-            .social{
-                width: 5.859vw;
-                height: 5.859vw;
-                display: block;
-                margin-right: 1.855vw;
-                &:last-child{
-                    margin-right: 0;
-                }
-                circle{
-                    stroke: $black;
-                }
-                path{
-                    fill: $black;
-                    stroke: $black;
-                }
-                &:hover{
-                    circle{
-                        fill:$black;
-                        stroke: $black;
-                    }
-                    path{
-                        fill: $white;
-                    }
-                }
-            }
-        }
-        .resume-c{
-            margin-left: 12.37px;
-            display: flex;
-            align-items: center;
-            width: 26.855vw;
-            height: 5.859vw;
-            border:2.478px solid $black;
-            border-radius: $radius-m;
-            background-color: $black;
-            padding: 0.977vw;
-            justify-content: space-between;
-            font-size: 3.125vw;
-            line-height: 3.125vw;
-            .resume{
-                color: $white;
-                display: flex;
-                margin-left: 49.469px;
-            }
-            .arw-con{
-                width: 9.766vw;
-                height: 3.906vw;
-                border-radius: $radius-t;
-                background-color: $grey;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                .arw{
-                    width: 2.93vw;
-                }
-            }
-        }
         .sr-c{
             display: flex;
-            border: 0.098vw solid $black;
+            border-width: var(--mborderw-m);
+            border-style: var(--mborders-m);
+            border-color: var(--mborderc-m);
             border-radius: $radius-t;
-            padding: 0.977vw;
+            padding: var(--mpadding-m);
             width: 82.422vw;
             height: 7.813vw;
             justify-content: space-between;
-        }
-        #menu:checked{
-            .nvc{
-                display: none;
-
+            .socials{
+                display: flex;
+                .social{
+                    width: 5.86vw;
+                    height: 5.86vw;
+                    display: block;
+                    margin-right: 1.855vw;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    circle{
+                        stroke: $black;
+                    }
+                    path{
+                        fill: $black;
+                        stroke: $black;
+                    }
+                    &:hover{
+                        circle{
+                            fill:$black;
+                            stroke: $black;
+                        }
+                        path{
+                            fill: $white;
+                        }
+                    }
+                }
+            }
+            .resume-c{
+                display: flex;
+                align-items: center;
+                width: 26.855vw;
+                height: 5.859vw;
+                border: var(--mborderw-l) var(--mborders-l) var(--mborderc-l);
+                border-radius: $radius-t;
+                background-color: $black;
+                padding: var(--mpadding-m);
+                justify-content: space-between;
+                .resume{
+                    color: $white;
+                    display: flex;
+                    margin-left: 1.563vw;
+                }
+                .arw-con{
+                    width: 9.766vw;
+                    height: 3.906vw;
+                    border-radius: $radius-t;
+                    background-color: $grey;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .arw{
+                        width: 2.93vw;
+                    }
+                }
             }
         }
         .nvc{
             display: flex;
-            border:0.098vw solid $black;
-            border-radius: $radius-t;
-            padding: 0.977vw;
+            border-width: var(--mborderw-m);
+            border-style: var(--mborders-m);
+            border-color: var(--mborderc-m);
+            border-radius: $radius-d;
+            padding: var(--mpadding-m);
             align-items: center;
             justify-content: space-between;
             margin:0;
-            font-size: 3.125vw;
-            line-height: 3.125vw;
-            margin-top: 12.37px;
+            margin-top: 0.976vw;
+            width: 384px;
+            height: 50px;
             .nvc-item{
                 width: 30.078vw;
                 height: 5.859vw;
-                border:0.098vw solid $black;
-                border-radius: $radius-t;
+                border-width: var(--mborderw-m);
+                border-style: var(--mborders-m);
+                border-color: var(--mborderc-m);
+                border-radius: $radius-d;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -436,382 +454,307 @@
         }
         .nvc-m{
             display: flex;
-            // width: 371.016px;
-            // height: 98.939px;
-            // background-color: $black;
-            padding: 0.977vw;
-            // padding-left: 44.524px;
+            padding: var(--mpadding-m);
             justify-content: space-between;
             align-items: center;
-            border-radius: $radius-m;
-            font-size: 3.125vw;
-            line-height: 3.125vw;
+            border-radius: $radius-t;
             color: $white;
+            margin-top: -1.954vw;
             .menu-icon{
-                width: 11.719vw;
-                height: 5.859vw;
-                padding: 1.465vw 3.809vw;
+                width: 9.766vw;
+                height: 3.906vw;
                 background-color: #D9D9D9;
-                border-radius: $radius-m;
+                border-radius: $radius-t;
             }
         }
         .nvc-e{
-            width: 31.738vw;
-            height: 7.813vw;
+            width: 26.855vw;
+            height: 5.86vw;
             background-color: $black;
             padding-left:3.32vw;
+            margin-top: 0px;
         }
         input#menu {
             display: none;
         }
-        
-        .icon {
-            background: transparent;
-            cursor: pointer;
-            display: block;
-            width: 4.186vw;
-            height: 2.93vw;
-            // padding: 61.829px;
-        }
-        
         label.icon {
             position: relative;
             z-index: 200;
         }
-        
-        .icon .menu::before{
-            background: $black;
-            content: '';
+        .icon{
+            background: transparent;
+            cursor: pointer;
             display: block;
-            position: absolute;
-            transition:var(--transition);
-            width: 4.102vw;
-            height: 0.391vw;
-        }
-        .icon .menu{
-            background: $black;
-            content: '';
-            display: block;
-            position: absolute;
-            transition:var(--transition);
-            width: 4.102vw;
-            height: 0.391vw;
-        }
-        .icon .menu::after {
-            background: $black;
-            content: '';
-            display: block;
-            position: absolute;
-            transition:var(--transition);
-            width: 4.102vw;
-            height: 0.391vw;
-        }
-        
-        // .icon:hover .menu,
-        // .icon:hover .menu::before,
-        // .icon:hover .menu::after {
-        //     background: #47B74B;
-        // }
-        
-        
-        .icon .menu::before {
-            top: -1.465vw;
-            right: 0;
-        }
-        
-        .icon .menu {
-            left: 0px;
-            top: 1.465vw;
-        }
-
-        .icon .menu::after {
-            top: 1.465vw;
-            right: 0;
+            width: 9.766vw;
+            height: 3.906vw;
+            .menu{
+                --top:0.976vw;
+                --mwidth-l:2.93vw;
+                --mheight-l:0.294vw;
+                left: calc((50%) - (var(--mwidth-l)/2));
+                top: 50%;
+                background: $black;
+                content: '';
+                display: block;
+                position: absolute;
+                transition:var(--transition);
+                width: var(--mwidth-l);
+                height: var(--mheight-l);
+                &::before{
+                    top: calc(var(--top)*-1);
+                    right: 0;
+                    background: $black;
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    transition:var(--transition);
+                    width: var(--mwidth-l);
+                    height: var(--mheight-l);
+                }
+                &::after{
+                    top: var(--top);
+                    right: 0;
+                    background: $black;
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    transition:var(--transition);
+                    width: var(--mwidth-l);
+                    height: var(--mheight-l);
+                }
+            }
         }
         
         #menu:checked + .icon .menu {
             background: transparent;
+            &::before {
+                transform: rotate(45deg);
+                top: 0;
+                transition: top ease .3s, transform ease .3s .3s;
+            }
+            &::after {
+                transform: rotate(-45deg);
+                width: var(--mwidth-l);
+                top: 0;
+                transition: top ease .3s, transform ease .3s .3s;
+            }
         }
         
-        #menu:checked + .icon .menu::before {
-            transform: rotate(45deg);
-        }
-        
-        #menu:checked + .icon .menu::after {
-            transform: rotate(-45deg);
-            width: 4.102vw;
-        }
-        
-        #menu:checked + .icon .menu::before,
-        #menu:checked + .icon .menu::after {
-            top: 0;
-            transition: top ease .3s, transform ease .3s .3s;
-        }
-        
-        // #menu:checked ~ nav {
-        //     width: 494.705px;
-        // }
-    }
-    .btn-tgl{
-        padding: 0;
-        border: 0;
-        &:focus{
-            outline: none;
-            box-shadow: none;
-        }
-    }
-    .bc-active{
-        background-color: $black;
-        color: $white;
     }
   }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .nvgtn{
         display: none;
     }
     .nvgtn-m{
-        padding: 1.208vw;
-        border:0.242vw solid $black;
-        border-radius: 6.522vw;
-        // margin: 2.416vw;
+        --mpadding-s: 1.208vw;
+        --transition: $black ease .3s, top ease .3s .3s, transform ease .3s;
+        --mborderw-s: 0.242vw;
+        --mborders-s: solid;
+        --mborderc-s: $black;
+        border-width: var(--mborderw-s);
+        border-style: var(--mborders-s);
+        border-color: var(--mborderc-s);
+        padding: var(--mpadding-s);
+        border-radius: $radius-mc;
         font-weight: 400;
         font-size: 4.831vw;
         line-height: 6.522vw;
-        // transition: $transitiontf;
-        // height: 12.077vw;
-        // overflow: hidden;
         display: flex;
         .logo-c{
             display: flex;
             align-items: center;
-            margin-left: 27.001px;
+            margin-left: 6.522vw;
             .logo{
-                width: 43.499px;
-                height: 20px;
-            }
-        }
-        .socials{
-            display: flex;
-            .social{
-                width: 9.662vw;
-                height: 9.662vw;
-                display: block;
-                margin-right: 1.208vw;
-                &:last-child{
-                    margin-right: 0;
-                }
-                circle{
-                    stroke: $black;
-                }
-                path{
-                    fill: $black;
-                    stroke: $black;
-                }
-                &:hover{
-                    circle{
-                        fill:$black;
-                        stroke: $black;
-                    }
-                    path{
-                        fill: $white;
-                    }
-                }
-            }
-        }
-        .resume-c{
-            margin-left: 1.208vw;
-            display: flex;
-            align-items: center;
-            width: 39.13vw;
-            height: 9.662vw;
-            border:0.242vw solid $black;
-            border-radius: $radius-m;
-            background-color: $black;
-            padding: 1.208vw;
-            justify-content: space-between;
-            font-size: 4.831vw;
-            line-height: 6.522vw;
-            .resume{
-                color: $white;
-                display: flex;
-                margin-left: 4.831vw;
-            }
-            .arw-con{
-                width: 12.077vw;
-                height: 7.246vw;
-                border-radius: $radius-m;
-                background-color: $grey;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                .arw{
-                    width: 4.831vw;
-                }
+                width: 10.507vw;
+                height: 4.831vw;
             }
         }
         .sr-c{
             display: flex;
-            border: 0.242vw solid $black;
+            border-width: var(--mborderw-s);
+            border-style: var(--mborders-s);
+            border-color: var(--mborderc-s);
             border-radius: $radius-m;
-            padding: 1.208vw;
-            height: 12.077vw;
-        }
-        #menu:checked{
-            .nvc{
-                display: none;
-
+            padding: var(--mpadding-s);
+            width: 306px;
+            height: 52px;
+            justify-content: space-between;
+            .socials{
+                display: flex;
+                .social{
+                    width: 40.001px;
+                    height: 40.001px;
+                    display: block;
+                    margin-right: 1.208vw;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    circle{
+                        stroke: $black;
+                    }
+                    path{
+                        fill: $black;
+                        stroke: $black;
+                    }
+                    &:hover{
+                        circle{
+                            fill:$black;
+                            stroke: $black;
+                        }
+                        path{
+                            fill: $white;
+                        }
+                    }
+                }
+            }
+            .resume-c{
+                display: flex;
+                align-items: center;
+                width: 39.13vw;
+                height: 9.662vw;
+                border-width: var(--mborderw-s);
+                border-style: var(--mborders-s);
+                border-color: var(--mborderc-s);
+                border-radius: $radius-m;
+                background-color: $black;
+                padding: var(--mpadding-s);
+                justify-content: space-between;
+                margin-left: 5px;
+                .resume{
+                    color: $white;
+                    display: flex;
+                    margin-left: 3.623vw;
+                }
+                .arw-con{
+                    width: 12.077vw;
+                    height: 7.246vw;
+                    border-radius: $radius-m;
+                    background-color: $grey;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .arw{
+                        width: 4.831vw;
+                    }
+                }
             }
         }
         .nvc{
             display: flex;
-            border:0.242vw solid $black;
+            border-width: var(--mborderw-s);
+            border-style: var(--mborders-s);
+            border-color: var(--mborderc-s);
             border-radius: $radius-m;
-            padding: 1.208vw;
-            width: 92.754vw;
+            padding: var(--mpadding-s);
             align-items: center;
             justify-content: space-between;
             margin:0;
-            font-size: 4.831vw;
-            line-height: 6.522vw;
             margin-top: 1.208vw;
             .nvc-item{
                 width: 29.307vw;
                 height: 9.662vw;
-                border:0.242vw solid $black;
+                border-width: var(--mborderw-s);
+                border-style: var(--mborders-s);
+                border-color: var(--mborderc-s);
                 border-radius: $radius-m;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                margin-right: 1.208vw;
+                &:last-child{
+                    margin-right: 0;
+                }
             }
         }
         .nvc-m{
             display: flex;
-            // width: 36.232vw;
-            // height: 9.662vw;
-            // background-color: $black;
-            padding: 1.208vw;
-            // padding-left: 4.348vw;
+            padding: var(--mpadding-s);
             justify-content: space-between;
+            align-items: center;
             border-radius: $radius-m;
-            font-size: 4.831vw;
-            line-height: 6.522vw;
             color: $white;
+            margin-top: 0vw;
             .menu-icon{
                 width: 14.493vw;
                 height: 7.246vw;
-                padding: 1.932vw 4.831vw;
                 background-color: #D9D9D9;
                 border-radius: $radius-m;
             }
         }
         .nvc-e{
-             width: 48.309vw;
+            width: 48.309vw;
             height: 9.662vw;
             background-color: $black;
-             padding-left: 6.039vw;
+            padding-left:4.831vw;
+            margin-top: 0vw;
         }
         input#menu {
             display: none;
         }
-        
-        .icon {
-            background: transparent;
-            cursor: pointer;
-            display: block;
-            width: 4.831vw;
-            height: 4.831vw;
-            // padding: 6.038vw;
-        }
-        
         label.icon {
             position: relative;
             z-index: 200;
         }
-        
-        .icon .menu::before{
-            background: $black;
-            content: '';
+        .icon{
+            background: transparent;
+            cursor: pointer;
             display: block;
-            height: 0.483vw;
-            position: absolute;
-            transition:var(--transition);
-            width: 4.831vw;
-        }
-        .icon .menu{
-            background: $black;
-            content: '';
-            display: block;
-            height: 0.483vw;
-            position: absolute;
-            transition:var(--transition);
-            width: 4.831vw;
-        }
-        .icon .menu::after {
-            background: $black;
-            content: '';
-            display: block;
-            height: 0.483vw;
-            position: absolute;
-            transition:var(--transition);
-            width: 4.831vw;
-        }
-        
-        // .icon:hover .menu,
-        // .icon:hover .menu::before,
-        // .icon:hover .menu::after {
-        //     background: #47B74B;
-        // }
-        
-        
-        .icon .menu::before {
-            top: -1.691vw;
-            right: 0;
-        }
-        
-        .icon .menu {
-            left: 0vw;
-            top: 1.691vw;
-        }
-
-        .icon .menu::after {
-            top: 1.691vw;
-            right: 0;
+            width: 14.493vw;
+            height: 7.246vw;
+            .menu{
+                --top:1.691vw;
+                --mwidth-m:4.831vw;
+                --mheight-m:0.483vw;
+                left: calc((50%) - (var(--mwidth-m)/2));
+                top: 50%;
+                background: $black;
+                content: '';
+                display: block;
+                position: absolute;
+                transition:var(--transition);
+                width: var(--mwidth-m);
+                height: var(--mheight-m);
+                &::before{
+                    top: calc(var(--top)*-1);
+                    right: 0;
+                    background: $black;
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    transition:var(--transition);
+                    width: var(--mwidth-m);
+                    height: var(--mheight-m);
+                }
+                &::after{
+                    top: var(--top);
+                    right: 0;
+                    background: $black;
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    transition:var(--transition);
+                    width: var(--mwidth-m);
+                    height: var(--mheight-m);
+                }
+            }
         }
         
         #menu:checked + .icon .menu {
             background: transparent;
+            &::before {
+                transform: rotate(45deg);
+                top: 0;
+                transition: top ease .3s, transform ease .3s .3s;
+            }
+            &::after {
+                transform: rotate(-45deg);
+                width: var(--mwidth-m);
+                top: 0;
+                transition: top ease .3s, transform ease .3s .3s;
+            }
         }
         
-        #menu:checked + .icon .menu::before {
-            transform: rotate(45deg);
-        }
-        
-        #menu:checked + .icon .menu::after {
-            transform: rotate(-45deg);
-            width: 4.831vw;
-        }
-        
-        #menu:checked + .icon .menu::before,
-        #menu:checked + .icon .menu::after {
-            top: 0;
-            transition: top ease .3s, transform ease .3s .3s;
-        }
-        
-        // #menu:checked ~ nav {
-        //     width: 48.311vw;
-        // }
-    }
-    .btn-tgl{
-        padding: 0;
-        border: 0;
-        &:focus{
-            outline: none;
-            box-shadow: none;
-        }
-    }
-    .bc-active{
-        background-color: $black;
-        color: $white;
     }
   }

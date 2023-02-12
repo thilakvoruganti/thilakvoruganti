@@ -15,6 +15,12 @@ $halfwhite: #F5F5F7;
 $neon:#C3DA37;
 $greyblue:#839292;
 $grey:#8D8D8D;
+$purple:#9A82C2;
+$yellow:#DFB921;
+$lightpurple:#DADCF1;
+$green:#6BC25C;
+$blue:#0E74F6;
+
 
 $greengrey:#839292;
 
@@ -22,7 +28,7 @@ $radius:2.604vw;
 $radius-m:12.077vw;
 $radius-mc:25px;
 $radius-t:4.883vw;
-$radius-d:50px;
+$radius-d:3.906vw;
 
 
 $transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
@@ -31,12 +37,19 @@ $transitiontf: all 0.5s cubic-bezier(0.47,0.01,0.4,0.99);
 body{
     // color: $white;
     font-family:$Opensans;
-    padding: 10px;
+    padding: 0.521vw;
     margin: 0;
     background-color: $white;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1280px) {
+    body{
+        padding: 0.781vw;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
     body{
         padding: 2.415vw;
     }

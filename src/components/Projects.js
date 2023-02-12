@@ -1,96 +1,60 @@
-import React, { useState,useEffect } from 'react'
+import React from 'react'
 
 const Projects = () => {
-
-  const [pjtl,setPjtl] = useState(1)
-  const [pjc1,setPjc1] = useState(false)
-  const [pjc2,setPjc2] = useState(false)
-  const [pjc3,setPjc3] = useState(false)
-  const [pjc4,setPjc4] = useState(false)
-  const height = window.innerHeight/1080
-
-  const[pjtlu,setPjtlu] = useState(true)
-
-
-  useEffect(()=>{
-
-    const sy = () => {
-      // if(window.scrollY > 1360*height  &&  window.scrollY < 1925*height && pjtlu){
-      //   const cof = 1.5-(0.5/(1925*height-1360*height))*(window.scrollY-1360*height)
-      //   if(pjtl > 1){
-      //     setPjtl(cof)
-      //   }
-      // }
-
-      if(window.scrollY > 1925*height){
-        setPjc1(true)
-        setPjc2(true)
-        setPjtlu(false)
-      }
-
-      if(window.scrollY > 2225*height){
-        setPjc3(true)
-        setPjc4(true)
-      }
-
-      if(window.scrollY < 1925*height){
-        setPjc1(false)
-        setPjc2(false)
-      }
-
-      if(window.scrollY < 2225*height){
-        setPjc3(false)
-        setPjc4(false)
-      }
-
-    }
-
-    const scroll = window.addEventListener('scroll', sy)
-
-    return () => {
-      window.removeEventListener("scroll", scroll);
-    };
-  })
-
-
   return (
-    <section className='projects'>
-      <div className='d-flex justify-start'>
-        <h1 style={{transform:`matrix(${pjtl}, 0, 0, ${pjtl}, 0, 0)`}}>Projects</h1>
+    <section className='pjts'>
+      <div className='pjts-c gtn'>
+        <div className='d-flex justify-content-between'>
+          <button>Frontend</button>
+          <div className='link-c'>
+            <svg className='link' xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+              <circle cx="23.5" cy="23.5" r="22" stroke="white" strokeWidth="3" />
+              <path d="M37.0607 25.0607C37.6464 24.4749 37.6464 23.5251 37.0607 22.9393L27.5147 13.3934C26.9289 12.8076 25.9792 12.8076 25.3934 13.3934C24.8076 13.9792 24.8076 14.9289 25.3934 15.5147L33.8787 24L25.3934 32.4853C24.8076 33.0711 24.8076 34.0208 25.3934 34.6066C25.9792 35.1924 26.9289 35.1924 27.5147 34.6066L37.0607 25.0607ZM11 25.5L36 25.5V22.5L11 22.5V25.5Z" fill="white" />
+            </svg>
+          </div>
+        </div>
+        <h1>Guidance TamilNadu</h1>
+        <p>‘Guidance’ is the Government of Tamil Nadu’s nodal agency for investment promotion and single window facilitation. I contributed to the creation of their website from the ground up using the frontend tools I am familiar with.</p>
+        <p>During my time at Tata Consultancy Services, I was part of this project to develop a digital platform that would reduce the amount of paperwork and documentation required for investors to gain secure access to government services.</p>
       </div>
-      <div className='pjc'>
-        <div className={`pj ${pjc1?'pjct':''}`}>
-          <h2>01.Guidance TamilNadu</h2>
-          <p>‘Guidance’ is the Government of Tamil Nadu’s nodal agency for investment promotion and single window facilitation.
-            I contributed to the creation of their website from the ground up using the frontend tools I am familiar with.</p>
-          <button>Case Study <svg className='btnarw' xmlns="http://www.w3.org/2000/svg" width="36" height="24" viewBox="0 0 36 24" fill="none">
-            <path d="M35.0607 13.0607C35.6464 12.4749 35.6464 11.5251 35.0607 10.9393L25.5147 1.3934C24.9289 0.807612 23.9792 0.807612 23.3934 1.3934C22.8076 1.97918 22.8076 2.92893 23.3934 3.51472L31.8787 12L23.3934 20.4853C22.8076 21.0711 22.8076 22.0208 23.3934 22.6066C23.9792 23.1924 24.9289 23.1924 25.5147 22.6066L35.0607 13.0607ZM0 13.5H34V10.5H0V13.5Z" fill="#FF7700" />
-          </svg></button>
+      <div className='pjts-c efs'>
+        <div className='d-flex justify-content-between'>
+          <button>Full-stack</button>
+          <div className='link-c'>
+            <svg className='link' xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+              <circle cx="23.5" cy="23.5" r="22" stroke="white" strokeWidth="3" />
+              <path d="M37.0607 25.0607C37.6464 24.4749 37.6464 23.5251 37.0607 22.9393L27.5147 13.3934C26.9289 12.8076 25.9792 12.8076 25.3934 13.3934C24.8076 13.9792 24.8076 14.9289 25.3934 15.5147L33.8787 24L25.3934 32.4853C24.8076 33.0711 24.8076 34.0208 25.3934 34.6066C25.9792 35.1924 26.9289 35.1924 27.5147 34.6066L37.0607 25.0607ZM11 25.5L36 25.5V22.5L11 22.5V25.5Z" fill="white" />
+            </svg>
+          </div>
         </div>
-        <div className={`pj ${pjc2?'pjct':''}`}>
-          <h2>02.Ecoflights</h2>
-          <p>‘Guidance’ is the Government of Tamil Nadu’s nodal agency for investment promotion and single window facilitation.
-            I contributed to the creation of their website from the ground up using the frontend tools I am familiar with.</p>
-          <button>Case Study <svg className='btnarw' xmlns="http://www.w3.org/2000/svg" width="36" height="24" viewBox="0 0 36 24" fill="none">
-            <path d="M35.0607 13.0607C35.6464 12.4749 35.6464 11.5251 35.0607 10.9393L25.5147 1.3934C24.9289 0.807612 23.9792 0.807612 23.3934 1.3934C22.8076 1.97918 22.8076 2.92893 23.3934 3.51472L31.8787 12L23.3934 20.4853C22.8076 21.0711 22.8076 22.0208 23.3934 22.6066C23.9792 23.1924 24.9289 23.1924 25.5147 22.6066L35.0607 13.0607ZM0 13.5H34V10.5H0V13.5Z" fill="#FF7700" />
-          </svg></button>
+        <h1>Ecoflights</h1>
+        <p>To demonstrate my full stack skills, I created a project using React as the frontend, Express and Node as the backend, and MangoDB for databases.</p>
+      </div>
+      <div className='pjts-c ecm'>
+        <div className='d-flex justify-content-between'>
+          <button>Frontend</button>
+          <div className='link-c'>
+            <svg className='link' xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+              <circle cx="23.5" cy="23.5" r="22" stroke="white" strokeWidth="3" />
+              <path d="M37.0607 25.0607C37.6464 24.4749 37.6464 23.5251 37.0607 22.9393L27.5147 13.3934C26.9289 12.8076 25.9792 12.8076 25.3934 13.3934C24.8076 13.9792 24.8076 14.9289 25.3934 15.5147L33.8787 24L25.3934 32.4853C24.8076 33.0711 24.8076 34.0208 25.3934 34.6066C25.9792 35.1924 26.9289 35.1924 27.5147 34.6066L37.0607 25.0607ZM11 25.5L36 25.5V22.5L11 22.5V25.5Z" fill="white" />
+            </svg>
+          </div>
         </div>
-        <div className={`pj ${pjc3?'pjct':''}`}>
-          <h2>03.E-commerce</h2>
-          <p>‘Guidance’ is the Government of Tamil Nadu’s nodal agency for investment promotion and single window facilitation.
-            I contributed to the creation of their website from the ground up using the frontend tools I am familiar with.</p>
-          <button>Case Study <svg className='btnarw' xmlns="http://www.w3.org/2000/svg" width="36" height="24" viewBox="0 0 36 24" fill="none">
-            <path d="M35.0607 13.0607C35.6464 12.4749 35.6464 11.5251 35.0607 10.9393L25.5147 1.3934C24.9289 0.807612 23.9792 0.807612 23.3934 1.3934C22.8076 1.97918 22.8076 2.92893 23.3934 3.51472L31.8787 12L23.3934 20.4853C22.8076 21.0711 22.8076 22.0208 23.3934 22.6066C23.9792 23.1924 24.9289 23.1924 25.5147 22.6066L35.0607 13.0607ZM0 13.5H34V10.5H0V13.5Z" fill="#FF7700" />
-          </svg></button>
+        <h1>E-commerce</h1>
+        <p>Through this project, I wanted to gain a better understanding of the react-redux concept by seeing how it works in practise.</p>
+      </div>
+      <div className='pjts-c ptf'>
+        <div className='d-flex justify-content-between'>
+          <button>Frontend</button>
+          <div className='link-c'>
+            <svg className='link' xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
+              <circle cx="23.5" cy="23.5" r="22" stroke="black" strokeWidth="3" />
+              <path d="M37.0607 25.0607C37.6464 24.4749 37.6464 23.5251 37.0607 22.9393L27.5147 13.3934C26.9289 12.8076 25.9792 12.8076 25.3934 13.3934C24.8076 13.9792 24.8076 14.9289 25.3934 15.5147L33.8787 24L25.3934 32.4853C24.8076 33.0711 24.8076 34.0208 25.3934 34.6066C25.9792 35.1924 26.9289 35.1924 27.5147 34.6066L37.0607 25.0607ZM11 25.5L36 25.5V22.5L11 22.5V25.5Z" fill="black" />
+            </svg>
+          </div>
         </div>
-        <div className={`pj ${pjc4?'pjct':''}`}>
-          <h2>04.Portfolio</h2>
-          <p>‘Guidance’ is the Government of Tamil Nadu’s nodal agency for investment promotion and single window facilitation.
-            I contributed to the creation of their website from the ground up using the frontend tools I am familiar with.</p>
-          <button>Case Study <svg className='btnarw' xmlns="http://www.w3.org/2000/svg" width="36" height="24" viewBox="0 0 36 24" fill="none">
-            <path d="M35.0607 13.0607C35.6464 12.4749 35.6464 11.5251 35.0607 10.9393L25.5147 1.3934C24.9289 0.807612 23.9792 0.807612 23.3934 1.3934C22.8076 1.97918 22.8076 2.92893 23.3934 3.51472L31.8787 12L23.3934 20.4853C22.8076 21.0711 22.8076 22.0208 23.3934 22.6066C23.9792 23.1924 24.9289 23.1924 25.5147 22.6066L35.0607 13.0607ZM0 13.5H34V10.5H0V13.5Z" fill="#FF7700" />
-          </svg></button>
-        </div>
+        <h1>Portfolio</h1>
+        <p>To demonstrate my full stack skills, I created a project using React as the frontend, Express and Node as the backend, and MangoDB for databases.</p>
       </div>
     </section>
   )
