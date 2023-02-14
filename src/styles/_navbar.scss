@@ -337,7 +337,7 @@
         --transition: $black ease .3s, top ease .3s .3s, transform ease .3s;
         --mborderw-m: 0.097vw;
         --mborders-m: solid;
-        --mborderc-m: $black;
+        --mborderc-m: $black
         border-width: var(--mborderw-m);
         border-style: var(--mborders-m);
         border-color: var(--mborderc-m);
@@ -434,8 +434,6 @@
             justify-content: space-between;
             margin:0;
             margin-top: 0.976vw;
-            width: 384px;
-            height: 50px;
             .nvc-item{
                 width: 30.078vw;
                 height: 5.859vw;
@@ -543,7 +541,7 @@
     }
   }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 460px) {
     .nvgtn{
         display: none;
     }

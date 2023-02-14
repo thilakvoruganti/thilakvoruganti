@@ -11,33 +11,12 @@
         padding: 2.604vw 2.587vw 2.552vw;
     }
     button{
-        font-size: 1.667vw;
-        line-height: 1.667vw;
-        padding: 0.391vw 1.719vw;
-        background: transparent;
-        border: 0.156vw solid $white;
-        border-radius: $radius;
+        border-color: $white;
         color: $white;
     }
-    .link-c{            
-        .link{
-            width: 2.448vw;
-            height: 2.448vw;
-        }
-    }
-    h1{
-        font-size: 2.5vw;
-        line-height: 3.333vw;
-        margin-top: 1.302vw;
-        margin-bottom: 0.99vw;
-    }
-    p{
-        font-size: 1.25vw;
-        line-height: 2.083vw;
-        margin-bottom: 0.99vw;
-        &:last-child{
-            margin-bottom: 0;
-        }
+    h3{
+        margin-top: 24.998px;
+        margin-bottom: 19.008px;
     }
     .gtn{
         background-color: $purple;

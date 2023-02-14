@@ -23,25 +23,25 @@ const About = () => {
       <div className='abt-c'>
         <h2>My Skills</h2>
         <div>
-          <button>React</button>
-          <button>React-Redux</button>
-          <button>Express</button>
-          <button>Node</button>
-          <button>Javascript</button>
-          <button>JQuery</button>
-          <button>JSON</button>
-          <button>Typescript</button>
-          <button>Html</button>
-          <button>CSS</button>
-          <button>Sass</button>
-          <button>Bootstrap</button>
-          <button>Java</button>
-          <button>Python</button>
-          <button>Sql</button>
-          <button>MongoDB</button>
-          <button>Matplotlib</button>
-          <button>Seaborn</button>
-          <button>Pandas</button>
+          <button className='btns'>React</button>
+          <button className='btns'>React-Redux</button>
+          <button className='btns'>Express</button>
+          <button className='btns'>Node</button>
+          <button className='btns'>Javascript</button>
+          <button className='btns'>JQuery</button>
+          <button className='btns'>JSON</button>
+          <button className='btns'>Typescript</button>
+          <button className='btns'>Html</button>
+          <button className='btns'>CSS</button>
+          <button className='btns'>Sass</button>
+          <button className='btns'>Bootstrap</button>
+          <button className='btns'>Java</button>
+          <button className='btns'>Python</button>
+          <button className='btns'>Sql</button>
+          <button className='btns'>MongoDB</button>
+          <button className='btns'>Matplotlib</button>
+          <button className='btns'>Seaborn</button>
+          <button className='btns'>Pandas</button>
         </div>
       </div>
     </section>

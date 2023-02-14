@@ -1,0 +1,127 @@
+[
+    {
+        "key": "guidancetn",
+        "uid": "062021",
+        "title": "Guidance TamilNadu",
+        "linktext": "Live Link",
+        "link": "https://investingintamilnadu.com/DIGIGOV/index.jsp",
+        "p": [
+            {
+                "pt": "‘Guidance’ is the Government of Tamil Nadu’s nodal agency for investment promotion and single window facilitation. I contributed to the creation of their website from the ground up using the frontend tools I am familiar with.",
+                "pk": "gtnp1"
+            },
+            {
+                "pt": "During my time at Tata Consultancy Services, I was part of this project to develop a digital platform that would reduce the amount of paperwork and documentation required for investors to gain secure access to government services.",
+                "pk": "gtnp2"
+            }
+        ],
+        "p1": "‘Guidance’ is the Government of Tamil Nadu’s nodal agency for investment promotion and single window facilitation. I contributed to the creation of their website from the ground up using the frontend tools I am familiar with.",
+        "p2": "The purpose of this project is to develop a digital platform that reduces the amount of paperwork and documentation required to obtain government clearances, allowing investors to gain quick and secure access to government services.",
+        "technologies": [
+            "Javascript",
+            "jQuery",
+            "JSON",
+            "Bootstrap",
+            "CSS",
+            "Sass",
+            "Html"
+        ],
+        "pcolor": "#9A82C2",
+        "bctcolor": "#FFF",
+        "logocolor":"#9A82C2",
+        "scolor": "#DADCF1",
+        "textcolor": "#000",
+        "className": "gtn",
+        "type": "Frontend",
+        "svgcolor": "white"
+    },
+    {
+        "key": "ecoflights",
+        "uid": "102021",
+        "title": "Ecoflights",
+        "linktext": "Link",
+        "link": "https://github.com/thilakvoruganti/FlightBooking.git",
+        "p": [
+            {
+                "pt": "To demonstrate my full stack skills, I created a project using React as the frontend, Express and Node as the backend, and MangoDB for databases.",
+                "pk": "efsp1"
+            }
+        ],
+        "p1": "To demonstrate my full stack skills, I created a project using React as the frontend, Express and Node as the backend, and MangoDB for databases.",
+        "p2": "The purpose of this project is to develop a digital platform that reduces the amount of paperwork and documentation required to obtain government clearances, allowing investors to gain quick and secure access to government services.",
+        "technologies": [
+            "React",
+            "Node",
+            "Express",
+            "MongoDB",
+            "Mongoose",
+            "Bootstrap",
+            "JWT"
+        ],
+        "pcolor": "#FFF",
+        "bctcolor": "#FFF",
+        "logocolor":"#839292",
+        "scolor": "#839292",
+        "textcolor": "#FFF",
+        "className": "efs",
+        "type": "Fullstack",
+        "svgcolor": "white"
+    },
+    {
+        "key": "ecommerce",
+        "uid": "112021",
+        "title": "E-commerce",
+        "linktext": "Live Link",
+        "link": "https://github.com/thilakvoruganti/e-commerce.git",
+        "p": [
+            {
+                "pt": "‘Through this project, I wanted to gain a better understanding of the react-redux concept by seeing how it works in practise.",
+                "pk": "ecmp1"
+            }
+        ],
+        "p1": "Through this project, I wanted to gain a better understanding of the react-redux concept by seeing how it works in practise.",
+        "p2": "The purpose of this project is to develop a digital platform that reduces the amount of paperwork and documentation required to obtain government clearances, allowing investors to gain quick and secure access to government services.",
+        "technologies": [
+            "React",
+            "React-Redux",
+            "MaterialUI"
+        ],
+        "pcolor": "#DFB921",
+        "bctcolor": "#FFF",
+        "logocolor":"#DFB921",
+        "scolor": "#F8F1D2",
+        "textcolor": "#000",
+        "className": "ecm",
+        "type": "Frontend",
+        "svgcolor": "white"
+    },
+    {
+        "key": "portfolio",
+        "uid": "022022",
+        "title": "Portfolio",
+        "linktext": "Live Link",
+        "link": "https://github.com/thilakvoruganti/thilakvoruganti.git",
+        "p": [
+            {
+                "pt": "‘Guidance’ is the Government of Tamil Nadu’s nodal agency for investment promotion and single window facilitation. I contributed to the creation of their website from the ground up using the frontend tools I am familiar with.",
+                "pk": "ptfp1"
+            }
+        ],
+        "p1": "Through this project, I wanted to gain a better understanding of the react-redux concept by seeing how it works in practise.",
+        "p2": "The purpose of this project is to develop a digital platform that reduces the amount of paperwork and documentation required to obtain government clearances, allowing investors to gain quick and secure access to government services.",
+        "technologies": [
+            "React",
+            "Bootstrap",
+            "Scss",
+            "JSON"
+        ],
+        "pcolor": "#000",
+        "bctcolor": "#000",
+        "logocolor":"#DADCF1",
+        "scolor": "#DADCF1",
+        "textcolor": "#000",
+        "className": "ptf",
+        "type": "Frontend",
+        "svgcolor": "black"
+    }
+]
