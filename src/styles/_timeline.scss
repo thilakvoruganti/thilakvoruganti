@@ -1,9 +1,9 @@
 .tl{
-    margin-top: 30.01px;
+    margin-top: 1.563vw;
     display: grid;
     grid-template-areas: 'pgp tcs griet';
     .tl-i{
-        margin-right: 20.006px;
+        margin-right: 1.042vw;
         &:last-child{
             margin-right: 0;
         }
@@ -19,50 +19,26 @@
     }
     .tl-c{
         border-radius: $radius;
-        width: 613.325px;
-        height: 870.01px;
-        padding: 49.997px 42.509px;
+        width: 31.944vw;
+        height: 45.313vw;
+        padding: 2.604vw 2.214vw;
         color: $white;
         button{
-            font-size: 24px;
-            line-height: 32.006px;
-            background: none;
-            border:2.995px solid $white;
-            padding: 7.507px 33.005px;
             color: $white;
-            border-radius: $radius;
+            border-color: $white;
         }
-        h1{
-            font-size: 39.994px;
-            line-height: 63.994px;
-            margin:20.006px 0 23px;
+        h3{
+            margin:1.042vw 0 0;
         }
         .tl-h{
-            padding-bottom: 23.002px;
-            border-bottom: 2.995px solid $white;
-            margin-bottom: 20.006px;
+            padding-bottom: 1.042vw;
+            border-bottom: 0.156vw solid $white;
+            margin:1.198vw 0 1.042vw;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            h2{
-                font-size: 32.006px;
-                line-height: 44.006px;
-                margin: 0;
-            }
             button{
-                font-size: 24px;
-                line-height: 32.006px;
-                padding: 7.507px 33.005px;
-                border: 2.995px solid $white;
                 color: $white;
-            }
-        }
-        p{
-            font-size: 24px;
-            line-height: 33.005px;
-            margin-bottom: 12px;
-            &:last-child{
-                margin-bottom: 0;
             }
         }
     }
@@ -80,7 +56,8 @@
             border-color: $black;
         }
         .tl-h{
-            border-bottom: 2.995px solid $black;
+            border-bottom: 0.156vw solid $black;
+            padding-bottom: 1.042vw;
             button{
                 border-color: $black;
                 color: $black;
@@ -100,12 +77,12 @@
 
 @media screen and (max-width: 1280px) {
     .tl{
-        margin-top: 30.01px;
+        margin-top: 2.345vw;
         display: grid;
         grid-template-areas: 'pgp tcs' 'griet griet';
         .tl-i{
-            margin-right: 30.006px;
-            margin-bottom: 30px;
+            margin-right: 2.344vw;
+            margin-bottom: 2.344vw;
             &:last-child{
                 margin-right: 0;
                 margin-bottom: 0;
@@ -113,42 +90,35 @@
         }
         .tl-c{
             border-radius: $radius-d;
-            width: 615px;
-            height: 798.5px;
-            padding: 49.997px 42.509px;
+            width: 48.047vw;
+            height: 63.164vw;
+            padding: 3.906vw 3.321vw;
             color: $white;
-            button{
-                font-size: 24px;
-                line-height: 24px;
-                border:2.995px solid $white;
-                padding: 11.507px 33.005px;
-                border-radius: $radius-d;
-            }
-            h1{
-                font-size: 40px;
-                line-height: 54px;
-                margin:20.006px 0 23px;
+            // button{
+            //     font-size: 1.875vw;
+            //     line-height: 1.875vw;
+            //     border:0.234vw solid $white;
+            //     padding: 0.899vw 2.579vw;
+            //     border-radius: $radius-d;
+            // }
+            h3{
+                margin:1.563vw 0 0;
             }
             .tl-h{
-                padding-bottom: 23.002px;
-                border-bottom: 2.995px solid $white;
-                margin-bottom: 20.006px;
-                h2{
-                    font-size: 32px;
-                    line-height: 40px;
-                    margin: 0;
-                }
-                button{
-                    font-size: 24px;
-                    line-height: 24px;
-                    padding:11.507px 33.005px;
-                    border: 2.995px solid $white;
-                }
-            }
-            p{
-                font-size: 20px;
-                line-height: 32px;
-                margin-bottom: 12px;
+                padding-bottom: 1.563vw;
+                border-bottom: 0.234vw solid $white;
+                margin:1.797vw 0 1.563vw;
+                // h2{
+                //     font-size: 2.5vw;
+                //     line-height: 3.125vw;
+                //     margin: 0;
+                // }
+                // button{
+                //     font-size: 1.875vw;
+                //     line-height: 1.875vw;
+                //     padding:0.899vw 2.579vw;
+                //     border: 0.234vw solid $white;
+                // }
             }
         }
         .tcs-p{
@@ -159,7 +129,7 @@
                 border-color: $black;
             }
             .tl-h{
-                border-bottom: 2.995px solid $black;
+                border-bottom: 0.234vw solid $black;
                 button{
                     border-color: $black;
                     color: $black;
@@ -167,20 +137,20 @@
             }
         }
         .griet{
-            width: 1260px;
-            height: 442.5px;
+            width: 98.438vw;
+            height: 34.57vw;
         }
     }
 }
 
 @media screen and (max-width: 1024px) {
     .tl{
-        margin-top: 20.01px;
+        margin-top: 1.954vw;
         display: grid;
         grid-template-areas: 'pgp tcs' 'griet griet';
         .tl-i{
-            margin-right: 20.006px;
-            margin-bottom: 20px;
+            margin-right: 1.954vw;
+            margin-bottom: 1.953vw;
             &:last-child{
                 margin-right: 0;
                 margin-bottom: 0;
@@ -188,44 +158,26 @@
         }
         .tl-c{
             border-radius: $radius-t;
-            width: 492px;
-            height: 859.5px;
-            padding: 40px 34.5px;
+            width: 48.047vw;
+            height: 83.936vw;
+            padding: 3.906vw 3.369vw;
             button{
-                font-size: 20px;
-                line-height: 20px;
+                font-size: 1.953vw;
+                line-height: 1.953vw;
                 background: none;
-                border:2.995px solid $white;
-                padding: 7px 20px;
+                border:0.292vw solid $white;
+                padding: 0.684vw 1.953vw;
                 border-radius: $radius-t;
             }
-            h1{
-                font-size: 32px;
-                line-height: 44px;
-                margin:20.006px 0 23px;
+            h3{
+                margin:1.954vw 0 0;
             }
             .tl-h{
-                padding-bottom: 23.002px;
-                border-bottom: 2.995px solid $white;
-                margin-bottom: 17px;
+                padding-bottom: 2.246vw;
+                border-bottom: 0.292vw solid $white;
+                margin:2.246vw 0 1.66vw;
                 display: flex;
                 justify-content: space-between;
-                h2{
-                    font-size: 24px;
-                    line-height: 40px;
-                    margin: 0;
-                }
-                button{
-                    font-size: 20px;
-                    line-height: 20px;
-                    padding:7px 20.005px;
-                    border: 2.995px solid $white;
-                }
-            }
-            p{
-                font-size: 20px;
-                line-height: 32px;
-                margin-bottom: 17px;
             }
         }
         .tcs-p{
@@ -236,7 +188,7 @@
                 border-color: $black;
             }
             .tl-h{
-                border-bottom: 2.995px solid $black;
+                border-bottom: 0.292vw solid $black;
                 button{
                     border-color: $black;
                     color: $black;
@@ -244,20 +196,20 @@
             }
         }
         .griet{
-            width: 1004px;
-            height: 450.5px;
+            width: 98.047vw;
+            height: 43.994vw;
         }
     }
 }
 
 @media screen and (max-width: 480px) {
     .tl{
-        margin-top: 20.01px;
+        margin-top: 4.833vw;
         display: grid;
         grid-template-areas: 'pgp' 'tcs' 'griet';
         .tl-i{
             margin-right: 0;
-            margin-bottom: 20px;
+            margin-bottom: 4.831vw;
             &:last-child{
                 margin-right: 0;
                 margin-bottom: 0;
@@ -265,53 +217,37 @@
         }
         .tl-c{
             border-radius: $radius-mc;
-            width: 394px;
-            // height: 646px;
+            width: 95.169vw;
+            // height: 156.039vw;
             height: unset;
-            padding: 40px 28px;
+            padding: 9.662vw 6.763vw;
             button{
-                font-size: 16px;
-                line-height: 22px;
+                font-size: 3.865vw;
+                line-height: 5.314vw;
                 background: none;
-                border:2.995px solid $white;
-                padding: 7.5px 20px;
+                border:0.723vw solid $white;
+                padding: 1.812vw 4.831vw;
                 border-radius: $radius-m;
             }
-            .pm-c{
-                .pm-i{
-                    width: 37px;
-                    height: 37px;
-                }
-            }
-            h1{
-                font-size: 25px;
-                line-height: 34px;
-                margin:11px 0 10px;
+            h3{
+                margin:2.657vw 0 0vw;
             }
             .tl-h{
-                padding-bottom: 17px;
-                border-bottom: 2.995px solid $white;
-                margin-bottom: 9px;
+                padding-bottom: 3.623vw;
+                border-bottom: 0.723vw solid $white;
+                margin: 3.623vw 0 2.415vw;
                 display: flex;
                 justify-content: space-between;
                 h2{
-                    font-size: 20px;
-                    line-height: 27px;
+                    font-size: 4.831vw;
+                    line-height: 6.522vw;
                     margin: 0;
-                }
-                button{
-                    font-size: 16px;
-                    line-height: 22px;
-                    background: none;
-                    border:2.995px solid $white;
-                    padding: 7.5px 20px;
-                    border-radius: $radius-m;
                 }
             }
             p{
-                font-size: 16px;
-                line-height: 24px;
-                margin-bottom: 9px;
+                font-size: 3.865vw;
+                line-height: 5.797vw;
+                margin-bottom: 2.174vw;
             }
         }
         .tcs-p{
@@ -322,7 +258,7 @@
                 border-color: $black;
             }
             .tl-h{
-                border-bottom: 2.995px solid $black;
+                border-bottom: 0.723vw solid $black;
                 button{
                     border-color: $black;
                     color: $black;
@@ -330,14 +266,14 @@
             }
         }
         .pgp{
-            height: 442.5px;
+            height: 108.333vw;
         }
         .tcs{
-            height: 658.5px;
+            height: 160.749vw;
         }
         .griet{
-            width: 394px;
-            height: 477.5px;
+            width: 95.169vw;
+            height: 118.478vw;
         }
     }
 }

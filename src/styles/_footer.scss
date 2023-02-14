@@ -11,15 +11,15 @@
 }
 @media screen and (max-width: 1280px) {
     .ftr{
-        border: 1px solid $black;
-        height:30px;
+        border: 0.078vw solid $black;
+        height:2.344vw;
         border-radius: $radius;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 16px;
-        line-height: 16px;
-        margin-top: 30px;
+        font-size: 1.25vw;
+        line-height: 1.25vw;
+        margin-top: 2.344vw;
     }
 }
 

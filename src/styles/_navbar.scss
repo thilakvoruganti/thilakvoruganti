@@ -1,5 +1,5 @@
 .nvgtn{
-    padding: 0.521vw;
+    padding: 0.469vw;
     border:0.052vw solid $black;
     border-radius: $radius;
     font-weight: 400;
@@ -33,20 +33,26 @@
             justify-content: center;
             align-items: center;
             cursor: pointer;
+            &:hover{
+                background-color: $black;
+                color: $white;
+            }
         }
     }
     .sr-c{
         display: flex;
         .socials{
             display: flex;
-            .social{
-                width: 4.167vw;
-                height: 4.167vw;
-                display: block;
+            a{
                 margin-right: 0.885vw;
                 &:last-child{
                     margin-right: 0;
                 }
+            }
+            .social{
+                width: 4.167vw;
+                height: 4.167vw;
+                display: block;
                 circle{
                     stroke: $black;
                 }
@@ -143,11 +149,16 @@
             justify-content: space-between;
             .socials{
                 display: flex;
+                a{
+                    margin-right: 1.172vw;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
                 .social{
                     width: 4.688vw;
                     height: 4.688vw;
                     display: block;
-                    margin-right: 15px;
                     &:last-child{
                         margin-right: 0;
                     }
@@ -333,7 +344,7 @@
         display: none;
     }
     .nvgtn-m{
-        --mpadding-m: 0.976vw;
+        --mpadding-m: 0.879vw;
         --transition: $black ease .3s, top ease .3s .3s, transform ease .3s;
         --mborderw-m: 0.097vw;
         --mborders-m: solid;
@@ -576,14 +587,14 @@
             border-color: var(--mborderc-s);
             border-radius: $radius-m;
             padding: var(--mpadding-s);
-            width: 306px;
-            height: 52px;
+            width: 73.913vw;
+            height: 12.56vw;
             justify-content: space-between;
             .socials{
                 display: flex;
                 .social{
-                    width: 40.001px;
-                    height: 40.001px;
+                    width: 9.662vw;
+                    height: 9.662vw;
                     display: block;
                     margin-right: 1.208vw;
                     &:last-child{
@@ -619,7 +630,7 @@
                 background-color: $black;
                 padding: var(--mpadding-s);
                 justify-content: space-between;
-                margin-left: 5px;
+                margin-left: 1.208vw;
                 .resume{
                     color: $white;
                     display: flex;

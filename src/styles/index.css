@@ -6,52 +6,60 @@ body {
 }
 
 h1 {
-  font-size: 128px;
-  line-height: 128px;
+  font-size: 6.667vw;
+  line-height: 6.667vw;
 }
 
 h2 {
-  font-size: 40px;
-  line-height: 54px;
-  margin-bottom: 30px;
+  font-size: 2.083vw;
+  line-height: 2.813vw;
+  margin-bottom: 1.563vw;
 }
 
 h3 {
-  font-size: 40px;
-  line-height: 64px;
+  font-size: 2.083vw;
+  line-height: 3.333vw;
+}
+
+h4 {
+  font-size: 1.667vw;
+  line-height: 2.292vw;
+  margin: 0;
 }
 
 p {
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 1.25vw;
+  line-height: 2.083vw;
   font-family: "Roboto", sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 1.042vw;
 }
 p:last-child {
   margin-bottom: 0;
 }
 
 .btns {
-  font-size: 32px;
-  line-height: 32px;
-  padding: 8.5px 33px;
+  font-size: 1.667vw;
+  line-height: 1.667vw;
+  padding: 0.443vw 1.719vw;
   background: none;
   border-radius: 2.604vw;
-  border: 1px solid #000000;
+  border: 0.052vw solid #000000;
+  margin-right: 0.781vw;
+  margin-bottom: 0.781vw;
 }
 
 .btntl {
-  font-size: 24px;
-  line-height: 32px;
-  padding: 8.5px 33px;
+  font-size: 1.25vw;
+  line-height: 1.667vw;
+  padding: 0.234vw 1.719vw;
   background: none;
   border-radius: 2.604vw;
-  border: 3px solid #000000;
+  border: 0.156vw solid #000000;
 }
 
 .ls-c .ls {
-  width: 47px;
-  height: 47px;
+  width: 2.448vw;
+  height: 2.448vw;
 }
 
 ul {
@@ -59,9 +67,9 @@ ul {
   padding: 0;
 }
 ul li {
-  font-size: 24px;
-  line-height: 33px;
-  margin-bottom: 20px;
+  font-size: 1.25vw;
+  line-height: 1.719vw;
+  margin-bottom: 1.042vw;
 }
 ul li:last-child {
   margin-bottom: 0;
@@ -72,21 +80,210 @@ ul li::marker {
 
 @media screen and (max-width: 1280px) {
   body {
-    padding: 0.781vw;
+    padding: 9.997px;
+  }
+  h1 {
+    font-size: 7.5vw;
+    line-height: 10.234vw;
+  }
+  h2 {
+    font-size: 3.125vw;
+    line-height: 4.22vw;
+    margin-bottom: 1.563vw;
+  }
+  h3 {
+    font-size: 3.125vw;
+    line-height: 4.219vw;
+  }
+  h4 {
+    font-size: 2.5vw;
+    line-height: 3.438vw;
+    margin: 0;
+  }
+  p {
+    font-size: 1.563vw;
+    line-height: 2.5vw;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1.172vw;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  .btns {
+    border: 0.078vw solid #000000;
+    border-radius: 12.077vw;
+    font-size: 1.875vw;
+    line-height: 2.578vw;
+    padding: 0.313vw 1.719vw;
+    margin-right: 1.172vw;
+    margin-bottom: 1.172vw;
+  }
+  .btntl {
+    font-size: 1.875vw;
+    line-height: 2.5vw;
+    padding: 0.351vw 2.579vw;
+    background: none;
+    border-radius: 2.604vw;
+    border: 0.234vw solid #000000;
+  }
+  .ls-c .ls {
+    width: 3.672vw;
+    height: 3.672vw;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    font-size: 1.563vw;
+    line-height: 2.5vw;
+    margin-bottom: 1.563vw;
+  }
+  ul li:last-child {
+    margin-bottom: 0;
+  }
+  ul li::marker {
+    content: "";
   }
 }
 @media screen and (max-width: 1024px) {
   body {
-    padding: 0.976vw;
+    padding: 9.994px;
+  }
+  h1 {
+    font-size: 9.375vw;
+    line-height: 12.793vw;
+  }
+  h2 {
+    font-size: 3.906vw;
+    line-height: 5.274vw;
+    margin-bottom: 1.953vw;
+  }
+  h3 {
+    font-size: 3.125vw;
+    line-height: 4.297vw;
+  }
+  h4 {
+    font-size: 2.344vw;
+    line-height: 3.906vw;
+    margin: 0;
+  }
+  p {
+    font-size: 1.953vw;
+    line-height: 3.125vw;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1.465vw;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  .btns {
+    border: 0.097vw solid #000000;
+    border-radius: 12.077vw;
+    font-size: 2.344vw;
+    line-height: 3.222vw;
+    padding: 0.391vw 2.149vw;
+    margin-right: 1.465vw;
+    margin-bottom: 1.465vw;
+  }
+  .btntl {
+    font-size: 2.344vw;
+    line-height: 3.126vw;
+    padding: 0.439vw 3.223vw;
+    background: none;
+    border-radius: 2.604vw;
+    border: 0.292vw solid #000000;
+  }
+  .ls-c .ls {
+    width: 4.59vw;
+    height: 4.59vw;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    font-size: 1.953vw;
+    line-height: 3.125vw;
+    margin-bottom: 1.66vw;
+  }
+  ul li:last-child {
+    margin-bottom: 0;
+  }
+  ul li::marker {
+    content: "";
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 460px) {
   body {
-    padding: 2.415vw;
+    padding: 9.998px;
+  }
+  h1 {
+    font-size: 8.696vw;
+    line-height: 11.836vw;
+  }
+  h2 {
+    font-size: 4.831vw;
+    line-height: 6.522vw;
+    margin-bottom: 2.415vw;
+  }
+  h3 {
+    font-size: 6.039vw;
+    line-height: 8.213vw;
+  }
+  h4 {
+    font-size: 4.831vw;
+    line-height: 6.522vw;
+    margin: 0;
+  }
+  p {
+    font-size: 3.865vw;
+    line-height: 5.797vw;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2.415vw;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  .btns {
+    border: 0.241vw solid #000000;
+    border-radius: 12.077vw;
+    font-size: 3.865vw;
+    line-height: 5.797vw;
+    padding: 0.725vw 3.865vw;
+    margin-right: 2.415vw;
+    margin-bottom: 2.415vw;
+  }
+  .btntl {
+    font-size: 4.831vw;
+    line-height: 6.522vw;
+    padding: 1.208vw 7.246vw;
+    background: none;
+    border-radius: 12.077vw;
+    border: 0.723vw solid #000000;
+  }
+  .ls-c .ls {
+    width: 8.938vw;
+    height: 8.938vw;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    font-size: 3.865vw;
+    line-height: 5.797vw;
+    margin-bottom: 2.415vw;
+  }
+  ul li:last-child {
+    margin-bottom: 0;
+  }
+  ul li::marker {
+    content: "";
   }
 }
 .nvgtn {
-  padding: 0.521vw;
+  padding: 0.469vw;
   border: 0.052vw solid #000000;
   border-radius: 2.604vw;
   font-weight: 400;
@@ -123,20 +320,26 @@ ul li::marker {
   align-items: center;
   cursor: pointer;
 }
+.nvgtn .nvc .nvc-item:hover {
+  background-color: #000000;
+  color: #fff;
+}
 .nvgtn .sr-c {
   display: flex;
 }
 .nvgtn .sr-c .socials {
   display: flex;
 }
+.nvgtn .sr-c .socials a {
+  margin-right: 0.885vw;
+}
+.nvgtn .sr-c .socials a:last-child {
+  margin-right: 0;
+}
 .nvgtn .sr-c .socials .social {
   width: 4.167vw;
   height: 4.167vw;
   display: block;
-  margin-right: 0.885vw;
-}
-.nvgtn .sr-c .socials .social:last-child {
-  margin-right: 0;
 }
 .nvgtn .sr-c .socials .social circle {
   stroke: #000000;
@@ -234,11 +437,16 @@ ul li::marker {
   .nvgtn-m .sr-c .socials {
     display: flex;
   }
+  .nvgtn-m .sr-c .socials a {
+    margin-right: 1.172vw;
+  }
+  .nvgtn-m .sr-c .socials a:last-child {
+    margin-right: 0;
+  }
   .nvgtn-m .sr-c .socials .social {
     width: 4.688vw;
     height: 4.688vw;
     display: block;
-    margin-right: 15px;
   }
   .nvgtn-m .sr-c .socials .social:last-child {
     margin-right: 0;
@@ -416,7 +624,7 @@ ul li::marker {
     display: none;
   }
   .nvgtn-m {
-    --mpadding-m: 0.976vw;
+    --mpadding-m: 0.879vw;
     --transition: $black ease .3s, top ease .3s .3s, transform ease .3s;
     --mborderw-m: 0.097vw;
     --mborders-m: solid;
@@ -655,16 +863,16 @@ ul li::marker {
     border-color: var(--mborderc-s);
     border-radius: 12.077vw;
     padding: var(--mpadding-s);
-    width: 306px;
-    height: 52px;
+    width: 73.913vw;
+    height: 12.56vw;
     justify-content: space-between;
   }
   .nvgtn-m .sr-c .socials {
     display: flex;
   }
   .nvgtn-m .sr-c .socials .social {
-    width: 40.001px;
-    height: 40.001px;
+    width: 9.662vw;
+    height: 9.662vw;
     display: block;
     margin-right: 1.208vw;
   }
@@ -697,7 +905,7 @@ ul li::marker {
     background-color: #000000;
     padding: var(--mpadding-s);
     justify-content: space-between;
-    margin-left: 5px;
+    margin-left: 1.208vw;
   }
   .nvgtn-m .sr-c .resume-c .resume {
     color: #fff;
@@ -836,59 +1044,57 @@ ul li::marker {
   grid-template-areas: "title title" "aboutme skills";
 }
 .abt h1 {
-  margin-bottom: 31.008px;
-  margin-top: 11.002px;
+  margin-bottom: 1.615vw;
+  margin-top: 0.573vw;
 }
 .abt .abt-a {
   background-color: #839292;
   border-radius: 2.604vw;
-  margin-top: 27.994px;
+  margin-top: 1.563vw;
   color: #fff;
   display: flex;
-  padding: 34.003px 61.997px 46.003px 55.008px;
+  padding: 1.771vw 3.229vw 2.396vw 2.865vw;
   justify-content: space-between;
-  margin-bottom: 29.99px;
+  margin-bottom: 1.562vw;
   grid-area: title;
 }
 .abt .abt-a button {
-  font-size: 32.006px;
-  line-height: 32.006px;
-  padding: 21.005px 44.006px;
+  font-size: 1.667vw;
+  line-height: 1.667vw;
+  padding: 1.094vw 2.292vw;
   border-radius: 2.604vw;
-  border: 2.995px solid #fff;
+  border: 0.156vw solid #fff;
   background-color: transparent;
   color: #fff;
   font-family: "Open Sans", sans-serif;
 }
 .abt .abt-a .tl-img img {
-  width: 250.003px;
-  height: 250.003px;
+  width: 13.021vw;
+  height: 13.021vw;
 }
 .abt .abt-b {
-  width: 935.002px;
-  min-width: 935.002px;
-  height: 509.99px;
-  min-height: 509.99px;
+  width: 48.698vw;
+  height: 26.562vw;
+  min-height: 26.562vw;
   border-radius: 2.604vw;
   background-color: #000000;
   color: #fff;
-  padding: 60px 51.994px;
-  margin-right: 30.01px;
+  padding: 3.125vw 2.708vw;
+  margin-right: 1.563vw;
   grid-area: aboutme;
 }
 .abt .abt-c {
-  width: 935.002px;
-  min-width: 935.002px;
-  height: 509.99px;
-  min-height: 509.99px;
+  max-width: 48.698vw;
+  height: 26.562vw;
+  min-height: 26.562vw;
   border-radius: 2.604vw;
   background-color: #C3DA37;
-  padding: 60px 51.994px;
+  padding: 3.125vw 2.708vw;
   grid-area: skills;
 }
 .abt .abt-c button {
-  margin-right: 14.995px;
-  margin-bottom: 14.995px;
+  margin-right: 0.781vw;
+  margin-bottom: 0.781vw;
 }
 
 @media screen and (max-width: 1280px) {
@@ -898,23 +1104,7 @@ ul li::marker {
     grid-template-areas: "title title" "aboutme skills";
   }
   .abt h1 {
-    font-size: 7.5vw;
-    line-height: 10.234vw;
-    margin-bottom: 0.703vw;
-  }
-  .abt h2 {
-    font-size: 1.875vw;
-    line-height: 1.875vw;
-    margin-bottom: 2.344vw;
-  }
-  .abt p {
-    font-size: 1.563vw;
-    line-height: 2.5vw;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 2.344vw;
-  }
-  .abt p:last-child {
-    margin-bottom: 0;
+    margin: 0 0 0.703vw;
   }
   .abt .abt-a {
     background-color: #839292;
@@ -968,14 +1158,8 @@ ul li::marker {
     margin-top: 0;
   }
   .abt .abt-c button {
-    border: 0.078vw solid #000000;
-    background-color: transparent;
-    border-radius: 12.077vw;
-    font-size: 1.875vw;
-    line-height: 2.578vw;
-    padding: 0.313vw 1.719vw;
-    margin-right: 0.781vw;
-    margin-bottom: 0.781vw;
+    margin-right: 9.997px;
+    margin-bottom: 9.997px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -985,26 +1169,9 @@ ul li::marker {
     grid-template-areas: "title title" "aboutme skills";
   }
   .abt h1 {
-    font-size: 6.25vw;
-    line-height: 8.496vw;
-    margin-bottom: 2.344vw;
-  }
-  .abt h2 {
-    font-size: 3.125vw;
-    line-height: 4.297vw;
-    margin-bottom: 2.344vw;
-  }
-  .abt p {
-    font-size: 1.855vw;
-    line-height: 2.734vw;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 2.93vw;
-  }
-  .abt p:last-child {
     margin-bottom: 0;
   }
   .abt .abt-a {
-    background-color: #839292;
     border-radius: 4.883vw;
     color: #fff;
     display: flex;
@@ -1034,9 +1201,9 @@ ul li::marker {
   }
   .abt .abt-b {
     width: 48.047vw;
-    height: 65.977vw;
+    height: 65vw;
     min-width: 48.047vw;
-    min-height: 65.977vw;
+    min-height: 65vw;
     border-radius: 4.883vw;
     background-color: #000000;
     color: #fff;
@@ -1046,9 +1213,9 @@ ul li::marker {
   }
   .abt .abt-c {
     width: 48.047vw;
-    height: 65.977vw;
+    height: 65vw;
     min-width: 48.047vw;
-    min-height: 65.977vw;
+    min-height: 65vw;
     border-radius: 4.883vw;
     background-color: #C3DA37;
     padding: 4.395vw 4.785vw;
@@ -1056,12 +1223,6 @@ ul li::marker {
     margin-top: 0;
   }
   .abt .abt-c button {
-    border: 0.098vw solid #000000;
-    background-color: transparent;
-    border-radius: 12.077vw;
-    font-size: 2.344vw;
-    line-height: 3.125vw;
-    padding: 0.488vw 1.465vw;
     margin-right: 0.977vw;
     margin-bottom: 0.977vw;
   }
@@ -1073,23 +1234,7 @@ ul li::marker {
     grid-template-areas: "title" "aboutme" "skills";
   }
   .abt h1 {
-    font-size: 9.662vw;
-    line-height: 11.836vw;
     margin-bottom: 2.415vw;
-  }
-  .abt h2 {
-    font-size: 4.831vw;
-    line-height: 6.522vw;
-    margin-bottom: 2.657vw;
-  }
-  .abt p {
-    font-size: 3.865vw;
-    line-height: 5.797vw;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 2.174vw;
-  }
-  .abt p:last-child {
-    margin-bottom: 0;
   }
   .abt .abt-a {
     background-color: #839292;
@@ -1134,8 +1279,8 @@ ul li::marker {
     grid-area: aboutme;
   }
   .abt .abt-c {
-    width: unset;
-    min-width: unset;
+    width: 100%;
+    min-width: 100%;
     height: unset;
     min-height: unset;
     border-radius: 25px;
@@ -1143,16 +1288,6 @@ ul li::marker {
     padding: 7.729vw 6.763vw;
     grid-area: skills;
     margin-top: 2.415vw;
-  }
-  .abt .abt-c button {
-    border: 0.215px solid #000000;
-    background-color: transparent;
-    border-radius: 12.077vw;
-    font-size: 3.865vw;
-    line-height: 5.797vw;
-    padding: 0.725vw 3.865vw;
-    margin-right: 2.415vw;
-    margin-bottom: 2.415vw;
   }
 }
 .pjts {
@@ -1164,7 +1299,7 @@ ul li::marker {
   grid-template-areas: "gtn efs ecm" "gtn ptf ptf";
 }
 .pjts .pjts-c {
-  width: 31.944vw;
+  max-width: 31.944vw;
   border-radius: 2.604vw;
   padding: 2.604vw 2.587vw 2.552vw;
 }
@@ -1173,8 +1308,8 @@ ul li::marker {
   color: #fff;
 }
 .pjts h3 {
-  margin-top: 24.998px;
-  margin-bottom: 19.008px;
+  margin-top: 1.302vw;
+  margin-bottom: 0.99vw;
 }
 .pjts .gtn {
   background-color: #9A82C2;
@@ -1203,7 +1338,7 @@ ul li::marker {
   min-height: 21.875vw;
   color: #000000;
   grid-area: ptf;
-  width: 65.452vw;
+  min-width: 65.452vw;
 }
 .pjts .ptf button {
   color: #000000;
@@ -1212,138 +1347,101 @@ ul li::marker {
 
 @media screen and (max-width: 1280px) {
   .pjts {
-    margin-top: 30px;
-    --pborderw:3px;
+    margin-top: 2.344vw;
+    --pborderw:0.234vw;
     --pborders:solid;
     --pborderc: $white;
     display: grid;
     grid-template-areas: "gtn efs" "gtn ecm" "ptf ptf";
   }
   .pjts .pjts-c {
-    width: 615px;
+    max-width: 48.047vw;
     border-radius: 2.604vw;
-    padding: 55px 50px;
+    padding: 4.141vw 3.516vw;
   }
   .pjts button {
-    font-size: 24px;
-    line-height: 24px;
-    padding: 12px 31px;
+    font-size: 1.875vw;
+    line-height: 1.875vw;
+    padding: 0.938vw 2.422vw;
     background: transparent;
-    border: 3px solid #fff;
+    border: 0.234vw solid #fff;
     border-radius: 2.604vw;
     color: #fff;
   }
-  .pjts .link-c .link {
-    width: 47px;
-    height: 47px;
-  }
-  .pjts h1 {
-    font-size: 40px;
-    line-height: 54px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-  .pjts p {
-    font-size: 20px;
-    line-height: 32px;
-    margin-bottom: 20px;
-  }
-  .pjts p:last-child {
-    margin-bottom: 0;
+  .pjts h3 {
+    margin-top: 1.563vw;
+    margin-bottom: 1.172vw;
   }
   .pjts .gtn {
-    min-height: 694px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    min-height: 54.219vw;
+    margin-right: 2.344vw;
+    margin-bottom: 2.344vw;
   }
   .pjts .efs {
-    min-height: 332px;
-    margin-bottom: 30px;
-    margin-right: 30px;
+    min-height: 25.938vw;
+    margin-bottom: 2.344vw;
+    margin-right: 0vw;
   }
   .pjts .ecm {
-    min-height: 332px;
-    margin-bottom: 30px;
+    min-height: 25.938vw;
+    margin-bottom: 2.344vw;
   }
   .pjts .ptf {
     background-color: #DADCF1;
-    width: 1260px;
-    min-height: 332px;
+    max-width: 98.438vw;
+    min-height: 25.938vw;
   }
   .pjts .ptf button {
     color: #000000;
-    border: 3px solid #000000;
+    border: 0.234vw solid #000000;
   }
 }
 @media screen and (max-width: 1024px) {
   .pjts {
-    margin-top: 20px;
-    --pborderw:3px;
+    margin-top: 1.953vw;
+    --pborderw:0.293vw;
     --pborders:solid;
     --pborderc: $white;
     display: grid;
     grid-template-areas: "gtn efs" "gtn ecm" "ptf ptf";
   }
   .pjts .pjts-c {
-    width: 492px;
+    width: 48.047vw;
     border-radius: 4.883vw;
-    padding: 55px 50px;
-  }
-  .pjts button {
-    font-size: 24px;
-    line-height: 24px;
-    padding: 12px 31px;
-    background: transparent;
-    border: 3px solid #fff;
-    border-radius: 4.883vw;
-    color: #fff;
-  }
-  .pjts .link-c .link {
-    width: 47px;
-    height: 47px;
+    padding: 5.371vw 4.883vw;
   }
   .pjts h1 {
-    font-size: 36px;
-    line-height: 49px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-  .pjts p {
-    font-size: 20px;
-    line-height: 32px;
-    margin-bottom: 20px;
-  }
-  .pjts p:last-child {
-    margin-bottom: 0;
+    margin-top: 1.953vw;
+    margin-bottom: 1.465vw;
   }
   .pjts .gtn {
-    min-height: 764px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    min-height: 74.609vw;
+    margin-right: 1.953vw;
+    margin-bottom: 1.953vw;
   }
   .pjts .efs {
-    min-height: 372px;
-    margin-bottom: 20px;
-    margin-right: 0px;
+    min-height: 36.328vw;
+    margin-bottom: 1.953vw;
+    margin-right: 0vw;
   }
   .pjts .ecm {
-    min-height: 372px;
-    margin-bottom: 20px;
+    min-height: 36.328vw;
+    margin-bottom: 1.953vw;
   }
   .pjts .ptf {
     background-color: #DADCF1;
-    width: 1004px;
-    min-height: 382px;
+    width: 98.047vw;
+    min-height: 37.305vw;
   }
   .pjts .ptf button {
     color: #000000;
-    border: 3px solid #000000;
+    border: 0.293vw solid #000000;
   }
 }
 @media screen and (max-width: 480px) {
   .pjts {
-    margin-top: 20px;
-    --pborderw:3px;
+    margin-top: 4.831vw;
+    --pborderw:0.725vw;
     --pborders:solid;
     --pborderc: $white;
     display: grid;
@@ -1352,48 +1450,34 @@ ul li::marker {
   .pjts .pjts-c {
     width: unset;
     border-radius: 25px;
-    padding: 40px 28px;
+    padding: 9.662vw 6.763vw;
   }
   .pjts button {
-    font-size: 20px;
-    line-height: 27px;
-    padding: 5px 20px;
+    font-size: 4.831vw;
+    line-height: 6.522vw;
+    padding: 1.208vw 4.831vw;
     background: transparent;
-    border: 3px solid #fff;
+    border: 0.725vw solid #fff;
     border-radius: 12.077vw;
     color: #fff;
   }
-  .pjts .link-c .link {
-    width: 37px;
-    height: 37px;
-  }
   .pjts h1 {
-    font-size: 32px;
-    line-height: 44px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-  .pjts p {
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 15px;
-  }
-  .pjts p:last-child {
-    margin-bottom: 0;
+    margin-top: 4.831vw;
+    margin-bottom: 3.623vw;
   }
   .pjts .gtn {
     min-height: unset;
-    margin-right: 0px;
-    margin-bottom: 20px;
+    margin-right: 0vw;
+    margin-bottom: 4.831vw;
   }
   .pjts .efs {
     min-height: unset;
-    margin-bottom: 20px;
-    margin-right: 0px;
+    margin-bottom: 4.831vw;
+    margin-right: 0vw;
   }
   .pjts .ecm {
     min-height: unset;
-    margin-bottom: 20px;
+    margin-bottom: 4.831vw;
   }
   .pjts .ptf {
     background-color: #DADCF1;
@@ -1402,16 +1486,16 @@ ul li::marker {
   }
   .pjts .ptf button {
     color: #000000;
-    border: 3px solid #000000;
+    border: 0.725vw solid #000000;
   }
 }
 .tl {
-  margin-top: 30.01px;
+  margin-top: 1.563vw;
   display: grid;
   grid-template-areas: "pgp tcs griet";
 }
 .tl .tl-i {
-  margin-right: 20.006px;
+  margin-right: 1.042vw;
 }
 .tl .tl-i:last-child {
   margin-right: 0;
@@ -1427,52 +1511,28 @@ ul li::marker {
 }
 .tl .tl-c {
   border-radius: 2.604vw;
-  width: 613.325px;
-  height: 870.01px;
-  padding: 49.997px 42.509px;
+  width: 31.944vw;
+  height: 45.313vw;
+  padding: 2.604vw 2.214vw;
   color: #fff;
 }
 .tl .tl-c button {
-  font-size: 24px;
-  line-height: 32.006px;
-  background: none;
-  border: 2.995px solid #fff;
-  padding: 7.507px 33.005px;
   color: #fff;
-  border-radius: 2.604vw;
+  border-color: #fff;
 }
-.tl .tl-c h1 {
-  font-size: 39.994px;
-  line-height: 63.994px;
-  margin: 20.006px 0 23px;
+.tl .tl-c h3 {
+  margin: 1.042vw 0 0;
 }
 .tl .tl-c .tl-h {
-  padding-bottom: 23.002px;
-  border-bottom: 2.995px solid #fff;
-  margin-bottom: 20.006px;
+  padding-bottom: 1.042vw;
+  border-bottom: 0.156vw solid #fff;
+  margin: 1.198vw 0 1.042vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.tl .tl-c .tl-h h2 {
-  font-size: 32.006px;
-  line-height: 44.006px;
-  margin: 0;
-}
 .tl .tl-c .tl-h button {
-  font-size: 24px;
-  line-height: 32.006px;
-  padding: 7.507px 33.005px;
-  border: 2.995px solid #fff;
   color: #fff;
-}
-.tl .tl-c p {
-  font-size: 24px;
-  line-height: 33.005px;
-  margin-bottom: 12px;
-}
-.tl .tl-c p:last-child {
-  margin-bottom: 0;
 }
 .tl .pgp-g {
   background-color: #6BC25C;
@@ -1489,7 +1549,8 @@ ul li::marker {
   border-color: #000000;
 }
 .tl .tcs-p .tl-h {
-  border-bottom: 2.995px solid #000000;
+  border-bottom: 0.156vw solid #000000;
+  padding-bottom: 1.042vw;
 }
 .tl .tcs-p .tl-h button {
   border-color: #000000;
@@ -1507,13 +1568,13 @@ ul li::marker {
 
 @media screen and (max-width: 1280px) {
   .tl {
-    margin-top: 30.01px;
+    margin-top: 2.345vw;
     display: grid;
     grid-template-areas: "pgp tcs" "griet griet";
   }
   .tl .tl-i {
-    margin-right: 30.006px;
-    margin-bottom: 30px;
+    margin-right: 2.344vw;
+    margin-bottom: 2.344vw;
   }
   .tl .tl-i:last-child {
     margin-right: 0;
@@ -1521,43 +1582,18 @@ ul li::marker {
   }
   .tl .tl-c {
     border-radius: 3.906vw;
-    width: 615px;
-    height: 798.5px;
-    padding: 49.997px 42.509px;
+    width: 48.047vw;
+    height: 63.164vw;
+    padding: 3.906vw 3.321vw;
     color: #fff;
   }
-  .tl .tl-c button {
-    font-size: 24px;
-    line-height: 24px;
-    border: 2.995px solid #fff;
-    padding: 11.507px 33.005px;
-    border-radius: 3.906vw;
-  }
-  .tl .tl-c h1 {
-    font-size: 40px;
-    line-height: 54px;
-    margin: 20.006px 0 23px;
+  .tl .tl-c h3 {
+    margin: 1.563vw 0 0;
   }
   .tl .tl-c .tl-h {
-    padding-bottom: 23.002px;
-    border-bottom: 2.995px solid #fff;
-    margin-bottom: 20.006px;
-  }
-  .tl .tl-c .tl-h h2 {
-    font-size: 32px;
-    line-height: 40px;
-    margin: 0;
-  }
-  .tl .tl-c .tl-h button {
-    font-size: 24px;
-    line-height: 24px;
-    padding: 11.507px 33.005px;
-    border: 2.995px solid #fff;
-  }
-  .tl .tl-c p {
-    font-size: 20px;
-    line-height: 32px;
-    margin-bottom: 12px;
+    padding-bottom: 1.563vw;
+    border-bottom: 0.234vw solid #fff;
+    margin: 1.797vw 0 1.563vw;
   }
   .tl .tcs-p {
     background-color: #DADCF1;
@@ -1568,26 +1604,26 @@ ul li::marker {
     border-color: #000000;
   }
   .tl .tcs-p .tl-h {
-    border-bottom: 2.995px solid #000000;
+    border-bottom: 0.234vw solid #000000;
   }
   .tl .tcs-p .tl-h button {
     border-color: #000000;
     color: #000000;
   }
   .tl .griet {
-    width: 1260px;
-    height: 442.5px;
+    width: 98.438vw;
+    height: 34.57vw;
   }
 }
 @media screen and (max-width: 1024px) {
   .tl {
-    margin-top: 20.01px;
+    margin-top: 1.954vw;
     display: grid;
     grid-template-areas: "pgp tcs" "griet griet";
   }
   .tl .tl-i {
-    margin-right: 20.006px;
-    margin-bottom: 20px;
+    margin-right: 1.954vw;
+    margin-bottom: 1.953vw;
   }
   .tl .tl-i:last-child {
     margin-right: 0;
@@ -1595,45 +1631,27 @@ ul li::marker {
   }
   .tl .tl-c {
     border-radius: 4.883vw;
-    width: 492px;
-    height: 859.5px;
-    padding: 40px 34.5px;
+    width: 48.047vw;
+    height: 83.936vw;
+    padding: 3.906vw 3.369vw;
   }
   .tl .tl-c button {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 1.953vw;
+    line-height: 1.953vw;
     background: none;
-    border: 2.995px solid #fff;
-    padding: 7px 20px;
+    border: 0.292vw solid #fff;
+    padding: 0.684vw 1.953vw;
     border-radius: 4.883vw;
   }
-  .tl .tl-c h1 {
-    font-size: 32px;
-    line-height: 44px;
-    margin: 20.006px 0 23px;
+  .tl .tl-c h3 {
+    margin: 1.954vw 0 0;
   }
   .tl .tl-c .tl-h {
-    padding-bottom: 23.002px;
-    border-bottom: 2.995px solid #fff;
-    margin-bottom: 17px;
+    padding-bottom: 2.246vw;
+    border-bottom: 0.292vw solid #fff;
+    margin: 2.246vw 0 1.66vw;
     display: flex;
     justify-content: space-between;
-  }
-  .tl .tl-c .tl-h h2 {
-    font-size: 24px;
-    line-height: 40px;
-    margin: 0;
-  }
-  .tl .tl-c .tl-h button {
-    font-size: 20px;
-    line-height: 20px;
-    padding: 7px 20.005px;
-    border: 2.995px solid #fff;
-  }
-  .tl .tl-c p {
-    font-size: 20px;
-    line-height: 32px;
-    margin-bottom: 17px;
   }
   .tl .tcs-p {
     background-color: #DADCF1;
@@ -1644,26 +1662,26 @@ ul li::marker {
     border-color: #000000;
   }
   .tl .tcs-p .tl-h {
-    border-bottom: 2.995px solid #000000;
+    border-bottom: 0.292vw solid #000000;
   }
   .tl .tcs-p .tl-h button {
     border-color: #000000;
     color: #000000;
   }
   .tl .griet {
-    width: 1004px;
-    height: 450.5px;
+    width: 98.047vw;
+    height: 43.994vw;
   }
 }
 @media screen and (max-width: 480px) {
   .tl {
-    margin-top: 20.01px;
+    margin-top: 4.833vw;
     display: grid;
     grid-template-areas: "pgp" "tcs" "griet";
   }
   .tl .tl-i {
     margin-right: 0;
-    margin-bottom: 20px;
+    margin-bottom: 4.831vw;
   }
   .tl .tl-i:last-child {
     margin-right: 0;
@@ -1671,51 +1689,37 @@ ul li::marker {
   }
   .tl .tl-c {
     border-radius: 25px;
-    width: 394px;
+    width: 95.169vw;
     height: unset;
-    padding: 40px 28px;
+    padding: 9.662vw 6.763vw;
   }
   .tl .tl-c button {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 3.865vw;
+    line-height: 5.314vw;
     background: none;
-    border: 2.995px solid #fff;
-    padding: 7.5px 20px;
+    border: 0.723vw solid #fff;
+    padding: 1.812vw 4.831vw;
     border-radius: 12.077vw;
   }
-  .tl .tl-c .pm-c .pm-i {
-    width: 37px;
-    height: 37px;
-  }
-  .tl .tl-c h1 {
-    font-size: 25px;
-    line-height: 34px;
-    margin: 11px 0 10px;
+  .tl .tl-c h3 {
+    margin: 2.657vw 0 0vw;
   }
   .tl .tl-c .tl-h {
-    padding-bottom: 17px;
-    border-bottom: 2.995px solid #fff;
-    margin-bottom: 9px;
+    padding-bottom: 3.623vw;
+    border-bottom: 0.723vw solid #fff;
+    margin: 3.623vw 0 2.415vw;
     display: flex;
     justify-content: space-between;
   }
   .tl .tl-c .tl-h h2 {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 4.831vw;
+    line-height: 6.522vw;
     margin: 0;
   }
-  .tl .tl-c .tl-h button {
-    font-size: 16px;
-    line-height: 22px;
-    background: none;
-    border: 2.995px solid #fff;
-    padding: 7.5px 20px;
-    border-radius: 12.077vw;
-  }
   .tl .tl-c p {
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 9px;
+    font-size: 3.865vw;
+    line-height: 5.797vw;
+    margin-bottom: 2.174vw;
   }
   .tl .tcs-p {
     background-color: #DADCF1;
@@ -1726,52 +1730,48 @@ ul li::marker {
     border-color: #000000;
   }
   .tl .tcs-p .tl-h {
-    border-bottom: 2.995px solid #000000;
+    border-bottom: 0.723vw solid #000000;
   }
   .tl .tcs-p .tl-h button {
     border-color: #000000;
     color: #000000;
   }
   .tl .pgp {
-    height: 442.5px;
+    height: 108.333vw;
   }
   .tl .tcs {
-    height: 658.5px;
+    height: 160.749vw;
   }
   .tl .griet {
-    width: 394px;
-    height: 477.5px;
+    width: 95.169vw;
+    height: 118.478vw;
   }
 }
 .ipt {
   display: grid;
   grid-template-areas: "ttc ttc" "ov tg";
-  margin-top: 30px;
+  margin-top: 1.563vw;
 }
 .ipt .tt-c {
-  padding: 55px 73px;
+  padding: 2.865vw 3.802vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-radius: 2.604vw;
   grid-area: ttc;
-  margin-bottom: 30px;
-}
-.ipt .tt-c h1 {
-  font-size: 128px;
-  line-height: 128px;
+  margin-bottom: 1.563vw;
 }
 .ipt .tt-c .bt-c {
   display: flex;
   flex-direction: column;
 }
 .ipt .tt-c .bt-c button {
-  font-size: 32px;
-  line-height: 32px;
-  border-width: 3px;
+  font-size: 1.667vw;
+  line-height: 1.667vw;
+  border-width: 0.156vw;
   border-style: solid;
-  padding: 24px 42px;
-  margin-bottom: 24px;
+  padding: 1.25vw 2.188vw;
+  margin-bottom: 1.25vw;
   border-radius: 2.604vw;
   background: none;
 }
@@ -1781,76 +1781,48 @@ ul li::marker {
 .ipt .tt-c .bt-c a {
   text-decoration: none;
 }
-.ipt h2 {
-  font-size: 40px;
-  line-height: 54px;
-  margin-bottom: 30px;
-}
-.ipt p {
-  font-size: 24px;
-  line-height: 40px;
-  margin-bottom: 20px;
-}
-.ipt p:last-child {
-  margin-bottom: 0;
-}
 .ipt .ov {
-  padding: 60px 65px;
+  padding: 3.125vw 3.385vw;
   border-radius: 2.604vw;
-  width: 1246.67px;
-  height: 510.01px;
+  max-width: 64.931vw;
+  height: 26.563vw;
   grid-area: ov;
-  margin-right: 30px;
+  margin-right: 1.563vw;
 }
 .ipt .tg {
-  padding: 60px 50px;
+  padding: 3.125vw 2.604vw;
   border-radius: 2.604vw;
-  width: 623.33px;
-  height: 510px;
+  max-width: 32.465vw;
+  height: 26.563vw;
   grid-area: tg;
-}
-.ipt .tg button {
-  font-size: 32px;
-  line-height: 32px;
-  padding: 9px 25px;
-  background: none;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 2.604vw;
-  margin-right: 15px;
-  margin-bottom: 15px;
 }
 
 @media screen and (max-width: 1280px) {
   .ipt {
     display: grid;
     grid-template-areas: "ttc ttc" "ov tg";
-    margin-top: 30px;
+    margin-top: 2.344vw;
   }
   .ipt .tt-c {
-    padding: 98px 45px 98px 45px;
+    padding: 7.656vw 3.516vw 7.656vw 3.516vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 3.906vw;
     grid-area: ttc;
-    margin-bottom: 30px;
-  }
-  .ipt .tt-c h1 {
-    font-size: 96px;
-    line-height: 131px;
+    margin-bottom: 2.344vw;
   }
   .ipt .tt-c .bt-c {
     display: flex;
     flex-direction: column;
   }
   .ipt .tt-c .bt-c button {
-    font-size: 24px;
-    line-height: 24px;
-    border-width: 3px;
+    font-size: 1.875vw;
+    line-height: 1.875vw;
+    border-width: 0.234vw;
     border-style: solid;
-    padding: 18px 36px;
-    margin-bottom: 34px;
+    padding: 1.406vw 2.813vw;
+    margin-bottom: 2.656vw;
     border-radius: 3.906vw;
     background: none;
   }
@@ -1860,78 +1832,51 @@ ul li::marker {
   .ipt .tt-c .bt-c a {
     text-decoration: none;
   }
-  .ipt h2 {
-    font-size: 32px;
-    line-height: 42px;
-    margin-bottom: 30px;
-  }
-  .ipt p {
-    font-size: 20px;
-    line-height: 32px;
-    margin-bottom: 20px;
-  }
-  .ipt p:last-child {
-    margin-bottom: 0;
-  }
   .ipt .ov {
-    padding: 49px 45.5px;
+    padding: 3.828vw 3.555vw;
     border-radius: 3.906vw;
-    width: 615px;
-    height: 510px;
+    max-width: 48.047vw;
+    height: 39.844vw;
     grid-area: ov;
-    margin-right: 30px;
+    margin-right: 2.344vw;
   }
   .ipt .tg {
-    padding: 49px 45.5px;
+    padding: 3.828vw 3.555vw;
     border-radius: 3.906vw;
-    width: 615px;
-    height: 510px;
+    max-width: 48.047vw;
+    height: 39.844vw;
     grid-area: tg;
-  }
-  .ipt .tg button {
-    font-size: 24px;
-    line-height: 33px;
-    padding: 3px 30px;
-    background: none;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 2.604vw;
-    margin-right: 15px;
-    margin-bottom: 15px;
   }
 }
 @media screen and (max-width: 1024px) {
   .ipt {
     display: grid;
     grid-template-areas: "ttc ttc" "ov tg";
-    margin-top: 30px;
+    margin-top: 2.93vw;
   }
   .ipt .tt-c {
-    padding: 160px 49px;
+    padding: 15.625vw 4.785vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 4.883vw;
     grid-area: ttc;
-    margin-bottom: 30px;
-  }
-  .ipt .tt-c h1 {
-    font-size: 64px;
-    line-height: 87px;
+    margin-bottom: 2.93vw;
   }
   .ipt .tt-c .bt-c {
     display: flex;
     flex-direction: column;
   }
   .ipt .tt-c .bt-c button {
-    font-size: 24px;
-    line-height: 32px;
-    border-width: 3px;
+    font-size: 2.344vw;
+    line-height: 3.125vw;
+    border-width: 0.293vw;
     border-style: solid;
-    padding: 14px 28px;
-    margin-bottom: 30px;
+    padding: 1.367vw 2.734vw;
+    margin-bottom: 2.93vw;
     border-radius: 4.883vw;
     background: none;
+    white-space: nowrap;
   }
   .ipt .tt-c .bt-c button:last-child {
     margin-bottom: 0;
@@ -1939,79 +1884,53 @@ ul li::marker {
   .ipt .tt-c .bt-c a {
     text-decoration: none;
   }
-  .ipt h2 {
-    font-size: 32px;
-    line-height: 42px;
-    margin-bottom: 30px;
-  }
-  .ipt p {
-    font-size: 19px;
-    line-height: 28px;
-    margin-bottom: 20px;
-  }
-  .ipt p:last-child {
-    margin-bottom: 0;
-  }
   .ipt .ov {
-    padding: 55px 49px;
+    padding: 5.371vw 4.785vw;
     border-radius: 4.883vw;
-    width: 492px;
-    height: 675.6px;
+    width: 48.047vw;
+    height: 65.977vw;
     grid-area: ov;
-    margin-right: 30px;
+    margin-right: 2.93vw;
   }
   .ipt .tg {
-    padding: 49px 55px;
+    padding: 4.785vw 5.371vw;
     border-radius: 4.883vw;
-    width: 492px;
-    height: 675.6px;
+    width: 48.047vw;
+    height: 65.977vw;
     grid-area: tg;
-  }
-  .ipt .tg button {
-    font-size: 24px;
-    line-height: 32px;
-    padding: 3px 30px;
-    background: none;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 4.883vw;
-    margin-right: 15px;
-    margin-bottom: 15px;
   }
 }
 @media screen and (max-width: 480px) {
   .ipt {
     display: grid;
     grid-template-areas: "ttc" "ov" "tg";
-    margin-top: 4.831vw;
+    margin-top: 20px;
   }
   .ipt .tt-c {
-    padding: 9.662vw 5.193vw;
+    padding: 40.001px 21.499px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     border-radius: 4.883vw;
     grid-area: ttc;
-    margin-bottom: 2.415vw;
+    margin-bottom: 9.998px;
   }
   .ipt .tt-c h1 {
-    font-size: 8.696vw;
-    line-height: 11.836vw;
-    margin-bottom: 3.623vw;
+    margin-bottom: 14.999px;
   }
   .ipt .tt-c .bt-c {
     display: flex;
     flex-direction: unset;
   }
   .ipt .tt-c .bt-c button {
-    font-size: 4.831vw;
-    line-height: 6.522vw;
-    border-width: 0.725vw;
+    font-size: 20px;
+    line-height: 27.001px;
+    border-width: 3.001px;
     border-style: solid;
-    padding: 1.449vw 7.246vw;
-    margin-bottom: 0vw;
-    margin-right: 4.831vw;
+    padding: 5.999px 29.998px;
+    margin-bottom: 0px;
+    margin-right: 20px;
     border-radius: 4.883vw;
     background: none;
   }
@@ -2022,45 +1941,21 @@ ul li::marker {
   .ipt .tt-c .bt-c a {
     text-decoration: none;
   }
-  .ipt h2 {
-    font-size: 4.831vw;
-    line-height: 6.522vw;
-    margin-bottom: 2.415vw;
-  }
-  .ipt p {
-    font-size: 3.865vw;
-    line-height: 5.797vw;
-    margin-bottom: 2.415vw;
-  }
-  .ipt p:last-child {
-    margin-bottom: 0;
-  }
   .ipt .ov {
-    padding: 9.662vw 6.763vw;
+    padding: 40.001px 27.999px;
     border-radius: 25px;
     width: unset;
     height: unset;
     grid-area: ov;
-    margin-right: 0vw;
-    margin-bottom: 2.415vw;
+    margin-right: 0px;
+    margin-bottom: 9.998px;
   }
   .ipt .tg {
-    padding: 9.662vw 6.763vw;
+    padding: 40.001px 27.999px;
     border-radius: 25px;
     width: unset;
     height: unset;
     grid-area: tg;
-  }
-  .ipt .tg button {
-    font-size: 3.865vw;
-    line-height: 5.797vw;
-    padding: 0.725vw 3.623vw;
-    background: none;
-    border-width: 0.242vw;
-    border-style: solid;
-    border-radius: 12.077vw;
-    margin-right: 3.623vw;
-    margin-bottom: 3.623vw;
   }
 }
 .ftr {
@@ -2077,15 +1972,15 @@ ul li::marker {
 
 @media screen and (max-width: 1280px) {
   .ftr {
-    border: 1px solid #000000;
-    height: 30px;
+    border: 0.078vw solid #000000;
+    height: 2.344vw;
     border-radius: 2.604vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
-    line-height: 16px;
-    margin-top: 30px;
+    font-size: 1.25vw;
+    line-height: 1.25vw;
+    margin-top: 2.344vw;
   }
 }
 @media screen and (max-width: 1024px) {

@@ -39,7 +39,7 @@ const Project = () => {
         <div className='tg'  style={{color:pdata?.textcolor, backgroundColor:pdata?.scolor}}>
             <h2>Technologies</h2>
             {pdata?.technologies?.map((element)=>{
-                return <button style={{color:pdata?.textcolor,borderColor:pdata?.textcolor}} key={element} >{element}</button>
+                return <button className='btns' style={{color:pdata?.textcolor,borderColor:pdata?.textcolor}} key={element} >{element}</button>
             })}
         </div>
     </section>

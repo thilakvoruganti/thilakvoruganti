@@ -1,29 +1,25 @@
 .ipt{
     display: grid;
     grid-template-areas: 'ttc ttc' 'ov tg';
-    margin-top: 30px;
+    margin-top: 1.563vw;
     .tt-c{
-        padding: 55px 73px;
+        padding: 2.865vw 3.802vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
         border-radius: $radius;
         grid-area: ttc;
-        margin-bottom: 30px;
-        h1{
-            font-size: 128px;
-            line-height: 128px;
-        }
+        margin-bottom: 1.563vw;
         .bt-c{
             display: flex;
             flex-direction: column;
             button{
-                font-size: 32px;
-                line-height: 32px;
-                border-width: 3px;
+                font-size: 1.667vw;
+                line-height: 1.667vw;
+                border-width: 0.156vw;
                 border-style: solid;
-                padding: 24px 42px;
-                margin-bottom: 24px;
+                padding: 1.25vw 2.188vw;
+                margin-bottom: 1.25vw;
                 border-radius: $radius;
                 background: none;
                 &:last-child{
@@ -35,44 +31,20 @@
             }
         }
     }
-    h2{
-        font-size: 40px;
-        line-height: 54px;
-        margin-bottom: 30px;     
-    }
-    p{
-        font-size: 24px;
-        line-height: 40px;
-        margin-bottom: 20px;
-        &:last-child{
-            margin-bottom: 0;
-        }
-    }
     .ov{
-        padding: 60px 65px;
+        padding: 3.125vw 3.385vw;
         border-radius: $radius;
-        width: 1246.67px;
-        height: 510.01px;
+        max-width: 64.931vw;
+        height: 26.563vw;
         grid-area: ov;
-        margin-right: 30px;
+        margin-right: 1.563vw;
     }
     .tg{
-        padding: 60px 50px;
+        padding: 3.125vw 2.604vw;
         border-radius: $radius;
-        width: 623.33px;
-        height: 510px;
+        max-width: 32.465vw;
+        height: 26.563vw;
         grid-area: tg;
-        button{
-            font-size: 32px;
-            line-height: 32px;
-            padding: 9px 25px;
-            background: none;
-            border-width: 1px;
-            border-style: solid;
-            border-radius: $radius;
-            margin-right: 15px;
-            margin-bottom: 15px;
-        }
     }
 }
 
@@ -80,29 +52,25 @@
     .ipt{
         display: grid;
         grid-template-areas: 'ttc ttc' 'ov tg';
-        margin-top: 30px;
+        margin-top: 2.344vw;
         .tt-c{
-            padding: 98px 45px 98px 45px;
+            padding: 7.656vw 3.516vw 7.656vw 3.516vw;
             display: flex;
             align-items: center;
             justify-content: space-between;
             border-radius: $radius-d;
             grid-area: ttc;
-            margin-bottom: 30px;
-            h1{
-                font-size: 96px;
-                line-height: 131px;
-            }
+            margin-bottom: 2.344vw;
             .bt-c{
                 display: flex;
                 flex-direction: column;
                 button{
-                    font-size: 24px;
-                    line-height: 24px;
-                    border-width: 3px;
+                    font-size: 1.875vw;
+                    line-height: 1.875vw;
+                    border-width: 0.234vw;
                     border-style: solid;
-                    padding: 18px 36px;
-                    margin-bottom: 34px;
+                    padding: 1.406vw 2.813vw;
+                    margin-bottom: 2.656vw;
                     border-radius: $radius-d;
                     background: none;
                     &:last-child{
@@ -114,44 +82,20 @@
                 }
             }
         }
-        h2{
-            font-size: 32px;
-            line-height: 42px;
-            margin-bottom: 30px;     
-        }
-        p{
-            font-size: 20px;
-            line-height: 32px;
-            margin-bottom: 20px;
-            &:last-child{
-                margin-bottom: 0;
-            }
-        }
         .ov{
-            padding: 49px 45.5px;
+            padding: 3.828vw 3.555vw;
             border-radius: $radius-d;
-            width: 615px;
-            height: 510px;
+            max-width: 48.047vw;
+            height: 39.844vw;
             grid-area: ov;
-            margin-right: 30px;
+            margin-right: 2.344vw;
         }
         .tg{
-            padding: 49px 45.5px;
+            padding: 3.828vw 3.555vw;
             border-radius: $radius-d;
-            width: 615px;
-            height: 510px;
+            max-width: 48.047vw;
+            height: 39.844vw;
             grid-area: tg;
-            button{
-                font-size: 24px;
-                line-height: 33px;
-                padding: 3px 30px;
-                background: none;
-                border-width: 1px;
-                border-style: solid;
-                border-radius: $radius;
-                margin-right: 15px;
-                margin-bottom: 15px;
-            }
         }
     }
 
@@ -161,31 +105,28 @@
     .ipt{
         display: grid;
         grid-template-areas: 'ttc ttc' 'ov tg';
-        margin-top: 30px;
+        margin-top: 2.93vw;
         .tt-c{
-            padding: 160px 49px;
+            padding: 15.625vw 4.785vw;
             display: flex;
             align-items: center;
             justify-content: space-between;
             border-radius: $radius-t;
             grid-area: ttc;
-            margin-bottom: 30px;
-            h1{
-                font-size: 64px;
-                line-height: 87px;
-            }
+            margin-bottom: 2.93vw;
             .bt-c{
                 display: flex;
                 flex-direction: column;
                 button{
-                    font-size: 24px;
-                    line-height: 32px;
-                    border-width: 3px;
+                    font-size: 2.344vw;
+                    line-height: 3.125vw;
+                    border-width: 0.293vw;
                     border-style: solid;
-                    padding: 14px 28px;
-                    margin-bottom: 30px;
+                    padding: 1.367vw 2.734vw;
+                    margin-bottom: 2.93vw;
                     border-radius: $radius-t;
                     background: none;
+                    white-space: nowrap;
                     &:last-child{
                         margin-bottom: 0;
                     }
@@ -195,44 +136,20 @@
                 }
             }
         }
-        h2{
-            font-size: 32px;
-            line-height: 42px;
-            margin-bottom: 30px;     
-        }
-        p{
-            font-size: 19px;
-            line-height: 28px;
-            margin-bottom: 20px;
-            &:last-child{
-                margin-bottom: 0;
-            }
-        }
         .ov{
-            padding: 55px 49px;
+            padding: 5.371vw 4.785vw;
             border-radius: $radius-t;
-            width: 492px;
-            height: 675.6px;
+            width: 48.047vw;
+            height: 65.977vw;
             grid-area: ov;
-            margin-right: 30px;
+            margin-right: 2.93vw;
         }
         .tg{
-            padding: 49px 55px;
+            padding: 4.785vw 5.371vw;
             border-radius: $radius-t;
-            width: 492px;
-            height: 675.6px;
+            width: 48.047vw;
+            height: 65.977vw;
             grid-area: tg;
-            button{
-                font-size: 24px;
-                line-height: 32px;
-                padding: 3px 30px;
-                background: none;
-                border-width: 1px;
-                border-style: solid;
-                border-radius: $radius-t;
-                margin-right: 15px;
-                margin-bottom: 15px;
-            }
         }
     }
 
@@ -242,32 +159,30 @@
     .ipt{
         display: grid;
         grid-template-areas: 'ttc' 'ov' 'tg';
-        margin-top: 4.831vw;
+        margin-top: 20px;
         .tt-c{
-            padding: 9.662vw 5.193vw;
+            padding: 40.001px 21.499px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-direction: column;
             border-radius: $radius-t;
             grid-area: ttc;
-            margin-bottom: 2.415vw;
+            margin-bottom: 9.998px;
             h1{
-                font-size: 8.696vw;
-                line-height: 11.836vw;
-                margin-bottom: 3.623vw;
+                margin-bottom: 14.999px;
             }
             .bt-c{
                 display: flex;
                 flex-direction: unset;
                 button{
-                    font-size: 4.831vw;
-                    line-height: 6.522vw;
-                    border-width: 0.725vw;
+                    font-size: 20px;
+                    line-height: 27.001px;
+                    border-width: 3.001px;
                     border-style: solid;
-                    padding: 1.449vw 7.246vw;
-                    margin-bottom: 0vw;
-                    margin-right: 4.831vw;
+                    padding: 5.999px 29.998px;
+                    margin-bottom: 0px;
+                    margin-right: 20px;
                     border-radius: $radius-t;
                     background: none;
                     &:last-child{
@@ -280,45 +195,21 @@
                 }
             }
         }
-        h2{
-            font-size: 4.831vw;
-            line-height: 6.522vw;
-            margin-bottom: 2.415vw;     
-        }
-        p{
-            font-size: 3.865vw;
-            line-height: 5.797vw;
-            margin-bottom: 2.415vw;
-            &:last-child{
-                margin-bottom: 0;
-            }
-        }
         .ov{
-            padding: 9.662vw 6.763vw;
+            padding: 40.001px 27.999px;
             border-radius: $radius-mc;
             width: unset;
             height: unset;
             grid-area: ov;
-            margin-right: 0vw;
-            margin-bottom: 2.415vw;
+            margin-right: 0px;
+            margin-bottom: 9.998px;
         }
         .tg{
-            padding: 9.662vw 6.763vw;
+            padding: 40.001px 27.999px;
             border-radius: $radius-mc;
             width: unset;
             height: unset;
             grid-area: tg;
-            button{
-                font-size: 3.865vw;
-                line-height: 5.797vw;
-                padding: 0.725vw 3.623vw;
-                background: none;
-                border-width: 0.242vw;
-                border-style: solid;
-                border-radius: $radius-m;
-                margin-right: 3.623vw;
-                margin-bottom: 3.623vw;
-            }
         }
     }
 }
