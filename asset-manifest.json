@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/thilakvoruganti/static/css/main.7fc03c5b.css",
-    "main.js": "/thilakvoruganti/static/js/main.2037c565.js",
+    "main.js": "/thilakvoruganti/static/js/main.a564e507.js",
     "static/media/tvb.png": "/thilakvoruganti/static/media/tvb.6eb9f3ed438a41a7b496.png",
     "index.html": "/thilakvoruganti/index.html",
     "main.7fc03c5b.css.map": "/thilakvoruganti/static/css/main.7fc03c5b.css.map",
-    "main.2037c565.js.map": "/thilakvoruganti/static/js/main.2037c565.js.map"
+    "main.a564e507.js.map": "/thilakvoruganti/static/js/main.a564e507.js.map"
   },
   "entrypoints": [
     "static/css/main.7fc03c5b.css",
-    "static/js/main.2037c565.js"
+    "static/js/main.a564e507.js"
   ]
 }
