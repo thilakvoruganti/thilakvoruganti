@@ -4,11 +4,6 @@ import { useNavigate } from 'react-router-dom'
 const Projects = () => {
   let navigate = useNavigate()
   let data = require('../json/projects.json')
-  const [pdata, setPdata] = useState({})
-
-  useEffect(() => {
-    setPdata(data)
-  }, [])
 
   return (
     <section className='pjts'>

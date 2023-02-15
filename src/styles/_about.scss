@@ -8,21 +8,6 @@
         margin-bottom: 1.615vw;
         margin-top: 0.573vw;
     }
-    // h2{
-    //     font-size: 1.667vw;
-    //     line-height: 2.083vw;
-    //     font-family: $Opensans;
-    //     margin-bottom: 1.562vw;
-    // }
-    // p{
-    //     font-size: 1.25vw;
-    //     line-height: 2.083vw;
-    //     font-family: $Roboto;
-    //     margin-bottom: 1.042vw;
-    //     &:last-child{
-    //         margin-bottom: 0;
-    //     }
-    // }
     .abt-a{
         background-color: $greengrey;
         border-radius: $radius;
@@ -51,7 +36,7 @@
         }
     }
     .abt-b{
-        width: 48.698vw;
+        max-width: 48.698vw;
         height: 26.562vw;
         min-height: 26.562vw;
         border-radius: $radius;
@@ -62,8 +47,6 @@
         grid-area: aboutme;
     }
     .abt-c{
-        // width: 48.698vw;
-        // min-width: 48.698vw;
         max-width: 48.698vw;
         height: 26.562vw;
         min-height: 26.562vw;
@@ -71,9 +54,10 @@
         background-color: $neon;
         padding: 3.125vw 2.708vw;
         grid-area: skills;
-        button{
-            margin-right: 0.781vw;
-            margin-bottom: 0.781vw;
+        .sk-c{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: stretch;
         }
     }
 }
@@ -116,31 +100,25 @@
             }
         }
         .abt-b{
-            width: 48.047vw;
             height: 39.844vw;
-            min-width: 48.047vw;
+            max-width: 48.047vw;
             min-height: 39.844vw;
             border-radius: $radius-d;
             background-color: $black;
             color: $white;
             padding: 4.141vw 3.516vw 4.141vw 3.594vw;
-            margin-right: 2.344vw;
+            margin-right: 1.563vw;
             grid-area: aboutme;
         }
         .abt-c{
-            width: 48.047vw;
             height: 39.844vw;
-            min-width: 48.047vw;
+            max-width: 48.047vw;
             min-height: 39.844vw;
             border-radius: $radius-d;
             background-color: $neon;
             padding: 4.141vw 3.516vw 4.141vw 3.594vw;
             grid-area: skills;
             margin-top: 0;
-            button{
-                margin-right: 9.997px;
-                margin-bottom: 9.997px;
-            }
         }
     }
 }
@@ -183,9 +161,8 @@
             }
         }
         .abt-b{
-            width: 48.047vw;
+            max-width: 48.047vw;
             height: 65vw;
-            min-width: 48.047vw;
             min-height: 65vw;
             border-radius: $radius-t;
             background-color: $black;
@@ -195,19 +172,14 @@
             grid-area: aboutme;
         }
         .abt-c{
-            width: 48.047vw;
             height: 65vw;
-            min-width: 48.047vw;
+            max-width: 48.047vw;
             min-height: 65vw;
             border-radius: $radius-t;
             background-color: $neon;
             padding: 4.395vw 4.785vw;
             grid-area: skills;
             margin-top: 0;
-            button{
-                margin-right: 0.977vw;
-                margin-bottom: 0.977vw;
-            }
         }
     }
 }
@@ -253,8 +225,7 @@
             }
         }
         .abt-b{
-            width: unset;
-            min-width: unset;
+            max-width: unset;
             height:  unset;
             min-height:  unset;
             border-radius: $radius-mc;
@@ -265,8 +236,7 @@
             grid-area: aboutme;
         }
         .abt-c{
-            width: 100%;
-            min-width: 100%;
+            max-width: unset;
             height:  unset;
             min-height:  unset;
             border-radius: $radius-mc;
@@ -274,7 +244,6 @@
             padding: 7.729vw 6.763vw;
             grid-area: skills;
             margin-top: 2.415vw;
-
         }
     }
 }

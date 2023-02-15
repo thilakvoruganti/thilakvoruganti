@@ -1,10 +1,5 @@
 $Roboto: "Roboto", sans-serif;
 $Opensans: 'Open Sans', sans-serif;
-$font-s: 10px;
-$font-m: 13px;
-$font-l: 1.302vw;
-$font-xl: 13px;
-$font-xxl: 20px;
 
 
 $black: #000000;
@@ -26,7 +21,7 @@ $greengrey:#839292;
 
 $radius:2.604vw;
 $radius-m:12.077vw;
-$radius-mc:25px;
+$radius-mc:6.038vw;
 $radius-t:4.883vw;
 $radius-d:3.906vw;
 
@@ -106,13 +101,16 @@ ul{
         &::marker{
             content: '';
         }
+        &::before{
+            content: '';
+        }
     }
 }
 
 
 @media screen and (max-width: 1280px) {
     body{
-        padding: 9.997px;
+        padding: 0.781vw;
     }
     h1{
         font-size: 7.5vw;
@@ -155,7 +153,7 @@ ul{
         line-height: 2.5vw;
         padding: 0.351vw 2.579vw;
         background: none;
-        border-radius: $radius;
+        border-radius: $radius-d;
         border:0.234vw solid $black;
     }
     .ls-c{
@@ -257,9 +255,9 @@ ul{
 
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     body{
-        padding: 9.998px;
+        padding: 2.415vw;
     }
     h1{
         font-size: 8.696vw;
@@ -298,8 +296,8 @@ ul{
         margin-bottom: 2.415vw;
     }
     .btntl{
-        font-size: 4.831vw;
-        line-height: 6.522vw;
+        font-size: 3.864vw;
+        line-height: 5.314vw;
         padding: 1.208vw 7.246vw;
         background: none;
         border-radius: $radius-m;

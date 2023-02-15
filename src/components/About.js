@@ -2,8 +2,6 @@ import React from 'react'
 
 const About = () => {
 
-  const height = window.innerHeight
-  const width = window.innerWidth
   return (
     <section className='abt'>
       <div className='abt-a'>
@@ -12,7 +10,7 @@ const About = () => {
           <button>Frontend Developer</button>
         </div>
         <div className='tl-img'>
-          <img src={require('../images/tvb.png')} />
+          <img src={require('../images/tvb.png')} alt={'Thilak'} />
         </div>
       </div>
       <div className='abt-b'>
@@ -22,26 +20,26 @@ const About = () => {
       </div>
       <div className='abt-c'>
         <h2>My Skills</h2>
-        <div>
-          <button className='btns'>React</button>
-          <button className='btns'>React-Redux</button>
-          <button className='btns'>Express</button>
-          <button className='btns'>Node</button>
-          <button className='btns'>Javascript</button>
-          <button className='btns'>JQuery</button>
-          <button className='btns'>JSON</button>
-          <button className='btns'>Typescript</button>
-          <button className='btns'>Html</button>
-          <button className='btns'>CSS</button>
-          <button className='btns'>Sass</button>
-          <button className='btns'>Bootstrap</button>
-          <button className='btns'>Java</button>
-          <button className='btns'>Python</button>
-          <button className='btns'>Sql</button>
-          <button className='btns'>MongoDB</button>
-          <button className='btns'>Matplotlib</button>
-          <button className='btns'>Seaborn</button>
-          <button className='btns'>Pandas</button>
+        <div className='sk-c'>
+          <div className='btns'>React</div>
+          <div className='btns'>React-Redux</div>
+          <div className='btns'>Express</div>
+          <div className='btns'>Node</div>
+          <div className='btns'>Javascript</div>
+          <div className='btns'>JQuery</div>
+          <div className='btns'>JSON</div>
+          <div className='btns'>Typescript</div>
+          <div className='btns'>Html</div>
+          <div className='btns'>CSS</div>
+          <div className='btns'>Sass</div>
+          <div className='btns'>Bootstrap</div>
+          <div className='btns'>Java</div>
+          <div className='btns'>Python</div>
+          <div className='btns'>Sql</div>
+          <div className='btns'>MongoDB</div>
+          <div className='btns'>Matplotlib</div>
+          <div className='btns'>Seaborn</div>
+          <div className='btns'>Pandas</div>
         </div>
       </div>
     </section>

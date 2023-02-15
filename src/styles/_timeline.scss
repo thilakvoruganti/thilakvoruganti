@@ -83,6 +83,9 @@
         .tl-i{
             margin-right: 2.344vw;
             margin-bottom: 2.344vw;
+            &:nth-child(2){
+                margin-right: 0;
+            }
             &:last-child{
                 margin-right: 0;
                 margin-bottom: 0;
@@ -90,17 +93,11 @@
         }
         .tl-c{
             border-radius: $radius-d;
-            width: 48.047vw;
+            max-width: 48.047vw;
+            width: unset;
             height: 63.164vw;
             padding: 3.906vw 3.321vw;
             color: $white;
-            // button{
-            //     font-size: 1.875vw;
-            //     line-height: 1.875vw;
-            //     border:0.234vw solid $white;
-            //     padding: 0.899vw 2.579vw;
-            //     border-radius: $radius-d;
-            // }
             h3{
                 margin:1.563vw 0 0;
             }
@@ -108,17 +105,6 @@
                 padding-bottom: 1.563vw;
                 border-bottom: 0.234vw solid $white;
                 margin:1.797vw 0 1.563vw;
-                // h2{
-                //     font-size: 2.5vw;
-                //     line-height: 3.125vw;
-                //     margin: 0;
-                // }
-                // button{
-                //     font-size: 1.875vw;
-                //     line-height: 1.875vw;
-                //     padding:0.899vw 2.579vw;
-                //     border: 0.234vw solid $white;
-                // }
             }
         }
         .tcs-p{
@@ -137,7 +123,8 @@
             }
         }
         .griet{
-            width: 98.438vw;
+            max-width: 98.438vw;
+            width: unset;
             height: 34.57vw;
         }
     }
@@ -158,17 +145,18 @@
         }
         .tl-c{
             border-radius: $radius-t;
-            width: 48.047vw;
+            max-width: 48.047vw;
+            width: unset;
             height: 83.936vw;
             padding: 3.906vw 3.369vw;
-            button{
-                font-size: 1.953vw;
-                line-height: 1.953vw;
-                background: none;
-                border:0.292vw solid $white;
-                padding: 0.684vw 1.953vw;
-                border-radius: $radius-t;
-            }
+            // button{
+            //     font-size: 1.953vw;
+            //     line-height: 1.953vw;
+            //     background: none;
+            //     border:0.292vw solid $white;
+            //     padding: 0.684vw 1.953vw;
+            //     border-radius: $radius-t;
+            // }
             h3{
                 margin:1.954vw 0 0;
             }
@@ -196,7 +184,8 @@
             }
         }
         .griet{
-            width: 98.047vw;
+            max-width: 98.047vw;
+            width: unset;
             height: 43.994vw;
         }
     }
@@ -217,18 +206,20 @@
         }
         .tl-c{
             border-radius: $radius-mc;
-            width: 95.169vw;
+            // max-width: 95.169vw;
+            max-width: unset;
+            width: unset;
             // height: 156.039vw;
             height: unset;
             padding: 9.662vw 6.763vw;
-            button{
-                font-size: 3.865vw;
-                line-height: 5.314vw;
-                background: none;
-                border:0.723vw solid $white;
-                padding: 1.812vw 4.831vw;
-                border-radius: $radius-m;
-            }
+            // button{
+            //     font-size: 3.865vw;
+            //     line-height: 5.314vw;
+            //     background: none;
+            //     border:0.723vw solid $white;
+            //     padding: 1.812vw 4.831vw;
+            //     border-radius: $radius-m;
+            // }
             h3{
                 margin:2.657vw 0 0vw;
             }
@@ -272,7 +263,8 @@
             height: 160.749vw;
         }
         .griet{
-            width: 95.169vw;
+            width: unset;
+            max-width: unset;
             height: 118.478vw;
         }
     }

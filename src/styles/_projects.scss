@@ -114,11 +114,11 @@
         display: grid;
         grid-template-areas: "gtn efs" "gtn ecm" "ptf ptf";
         .pjts-c{
-            width: 48.047vw;
+            max-width: 48.047vw;
             border-radius: $radius-t;
             padding: 5.371vw 4.883vw;
         }
-        h1{
+        h3{
             margin-top: 1.953vw;
             margin-bottom: 1.465vw;
         }
@@ -138,7 +138,7 @@
         }
         .ptf{
             background-color: #DADCF1;
-            width: 98.047vw;
+            max-width: 98.047vw;
             min-height: 37.305vw;
             button{
                 color: $black;
@@ -157,7 +157,7 @@
         display: grid;
         grid-template-areas: "gtn" "efs" "ecm" "ptf";
         .pjts-c{
-            width: unset;
+            max-width: unset;
             border-radius: $radius-mc;
             padding: 9.662vw 6.763vw;
         }
@@ -170,7 +170,7 @@
             border-radius: $radius-m;
             color: $white;
         }
-        h1{
+        h3{
             margin-top: 4.831vw;
             margin-bottom: 3.623vw;
         }
@@ -190,7 +190,7 @@
         }
         .ptf{
             background-color: #DADCF1;
-            width: unset;
+            max-width: unset;
             min-height: unset;
             button{
                 color: $black;

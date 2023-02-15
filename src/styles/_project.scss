@@ -34,7 +34,7 @@
     .ov{
         padding: 3.125vw 3.385vw;
         border-radius: $radius;
-        max-width: 64.931vw;
+        min-width: 64.931vw;
         height: 26.563vw;
         grid-area: ov;
         margin-right: 1.563vw;
@@ -85,7 +85,7 @@
         .ov{
             padding: 3.828vw 3.555vw;
             border-radius: $radius-d;
-            max-width: 48.047vw;
+            min-width: 48.047vw;
             height: 39.844vw;
             grid-area: ov;
             margin-right: 2.344vw;
@@ -139,7 +139,7 @@
         .ov{
             padding: 5.371vw 4.785vw;
             border-radius: $radius-t;
-            width: 48.047vw;
+            min-width: 48.047vw;
             height: 65.977vw;
             grid-area: ov;
             margin-right: 2.93vw;
@@ -147,7 +147,7 @@
         .tg{
             padding: 4.785vw 5.371vw;
             border-radius: $radius-t;
-            width: 48.047vw;
+            max-width: 48.047vw;
             height: 65.977vw;
             grid-area: tg;
         }
@@ -198,7 +198,7 @@
         .ov{
             padding: 40.001px 27.999px;
             border-radius: $radius-mc;
-            width: unset;
+            min-width: unset;
             height: unset;
             grid-area: ov;
             margin-right: 0px;
@@ -207,7 +207,7 @@
         .tg{
             padding: 40.001px 27.999px;
             border-radius: $radius-mc;
-            width: unset;
+            max-width: unset;
             height: unset;
             grid-area: tg;
         }

@@ -114,7 +114,7 @@
         display: none;
     }
     .nvgtn-m{
-        --mpadding-l: 0.781vw;
+        --mpadding-l: 0.703vw;
         --transition: $black ease .3s, top ease .3s .3s, transform ease .3s;
         --mborderw-l: 0.078vw;
         --mborders-l: solid;
@@ -132,6 +132,7 @@
             display: flex;
             align-items: center;
             margin-left: 4.297vw;
+            grid-area: logo;
             .logo{
                 width: 6.797vw;
                 height: 3.125vw;
@@ -144,7 +145,7 @@
             border-color: var(--mborderc-l);
             border-radius: $radius-t;
             padding: var(--mpadding-l);
-            width: 81.25vw;
+            width: 80.25vw;
             height: 6.25vw;
             justify-content: space-between;
             .socials{
@@ -211,17 +212,17 @@
         }
         .nvc{
             display: flex;
+            grid-area: nvc;
             border-width: var(--mborderw-l);
             border-style: var(--mborders-l);
             border-color: var(--mborderc-l);
             border-radius: $radius-t;
             padding: var(--mpadding-l);
             align-items: center;
-            justify-content: space-between;
             margin:0;
             margin-top: 0.781vw;
             .nvc-item{
-                width: 30.729vw;
+                width: 30.573vw;
                 height: 4.688vw;
                 border-width: var(--mborderw-l);
                 border-style: var(--mborders-l);
@@ -230,7 +231,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-right: 1.484vw;
+                margin-right: 20px;
                 &:last-child{
                     margin-right: 0;
                 }
@@ -374,7 +375,7 @@
             border-color: var(--mborderc-m);
             border-radius: $radius-t;
             padding: var(--mpadding-m);
-            width: 82.422vw;
+            width: 79.422vw;
             height: 7.813vw;
             justify-content: space-between;
             .socials{
@@ -410,7 +411,9 @@
                 align-items: center;
                 width: 26.855vw;
                 height: 5.859vw;
-                border: var(--mborderw-l) var(--mborders-l) var(--mborderc-l);
+                border-width: var(--mborderw-m);
+                border-style: var(--mborders-m);
+                border-color: var(--mborderc-m);
                 border-radius: $radius-t;
                 background-color: $black;
                 padding: var(--mpadding-m);
@@ -439,7 +442,7 @@
             border-width: var(--mborderw-m);
             border-style: var(--mborders-m);
             border-color: var(--mborderc-m);
-            border-radius: $radius-d;
+            border-radius: $radius-t;
             padding: var(--mpadding-m);
             align-items: center;
             justify-content: space-between;
@@ -451,7 +454,7 @@
                 border-width: var(--mborderw-m);
                 border-style: var(--mborders-m);
                 border-color: var(--mborderc-m);
-                border-radius: $radius-d;
+                border-radius: $radius-t;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -481,7 +484,7 @@
             height: 5.86vw;
             background-color: $black;
             padding-left:3.32vw;
-            margin-top: 0px;
+            margin-top: 0vw;
         }
         input#menu {
             display: none;
@@ -552,7 +555,7 @@
     }
   }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .nvgtn{
         display: none;
     }

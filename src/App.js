@@ -15,13 +15,13 @@ function App() {
   return (
     <div className="App">
       <PortProvider>
-        <BrowserRouter>
+        <BrowserRouter basename='/thilakvoruganti'>
           <Navbar />
           <Routes>
             <Route exact path="/" element={<About />} />
-            <Route exact path="/projects" element={<Projects />} />
-            <Route exact path="/projects/:slug" element={<Project />} />
-            <Route exact path="/timeline" element={<Timeline />} />
+            <Route  path="/projects" element={<Projects />} />
+            <Route  path="/projects/:slug" element={<Project />} />
+            <Route  path="/timeline" element={<Timeline />} />
           </Routes>
           <Footer />
         </BrowserRouter>
