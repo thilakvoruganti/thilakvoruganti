@@ -1,0 +1,264 @@
+.rsme{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    .rsme-c{
+        width: 1220px;
+        height: 1574.351px;
+        background-color: #F5F4FC;
+        padding: 40px 40px 40px 80px;
+    }
+    .rsme-d{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 18px;
+        .dwld-c{
+            display: flex;
+            align-items: center;
+            div{
+                font-size: 16px;
+                line-height: 22px;
+                margin-left: 15px;
+            }
+            .d-logo{
+                width: 21.04px;
+                height: 22px;
+            }
+        }
+    }
+    .rsme-h{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom:30px;
+        margin-right:40px;
+        border-bottom: 1px solid $black;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        h1{
+            font-weight: 600;
+            font-size: 64px;
+            line-height: 87px;
+            margin-bottom: 30px;
+        }
+        .cd-c{
+            display: flex;
+            .cd-i{
+                display: flex;
+                margin-right: 30px;
+                text-decoration: none;
+                color: $black;
+                .hm{
+                    width: 24.49px;
+                    height: 22px;
+                    margin-right: 10px;
+                }
+                .ph{
+                    width: 22px;
+                    height: 22px;
+                    margin-right: 10px;
+                }
+                .mail{
+                    width: 25.06px;
+                    height: 22px;
+                    margin-right: 10px;
+                }
+                .git{
+                    width: 22px;
+                    height: 22px;
+                    margin-right: 10px;
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .rsme-b{
+        margin-right:40px;
+        .bd-c{
+            padding: 10px 0;
+            border-bottom: 1px solid $black;
+        }
+        .cb-c{
+            border-bottom: none;
+        }
+        h2{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 33px;
+            margin-bottom: 10px;
+        }
+        h3{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            margin-bottom: 10px;
+        }
+        h4{
+            font-size: 20px;
+            line-height: 27px;
+            margin-bottom: 10px;
+        }
+        ul{
+            padding-left: 30px;
+            margin: 0;
+            margin-bottom: 10px;
+            li{
+                font-size: 19px;
+                line-height: 26px;
+                margin-bottom: 10px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                &::before{
+                    content: unset;
+                    margin-right: 15px;
+                }
+                &::marker{
+                    content: unset;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+    .pdf-l{
+        width: 65.25px;
+        height: 30px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .rsme{
+        display: flex;
+        justify-content: center;
+        margin-top: 7.813vw;
+        .rsme-c{
+            width: 95.313vw;
+            height: 122.996vw;
+            background-color: #F5F4FC;
+            padding: 3.125vw 3.125vw 3.125vw 6.25vw;
+        }
+        .rsme-d{
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 1.406vw;
+            .dwld-c{
+                display: flex;
+                align-items: center;
+                div{
+                    font-size: 1.25vw;
+                    line-height: 1.719vw;
+                    margin-left: 1.172vw;
+                }
+                .d-logo{
+                    width: 1.644vw;
+                    height: 1.719vw;
+                }
+            }
+        }
+        .rsme-h{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom:2.344vw;
+            margin-right:3.125vw;
+            border-bottom: 0.078vw solid $black;
+            font-weight: 400;
+            font-size: 1.25vw;
+            line-height: 1.719vw;
+            h1{
+                font-weight: 600;
+                font-size: 5vw;
+                line-height: 6.797vw;
+                margin-bottom: 2.344vw;
+            }
+            .cd-c{
+                display: flex;
+                .cd-i{
+                    display: flex;
+                    margin-right: 2.344vw;
+                    text-decoration: none;
+                    color: $black;
+                    .hm{
+                        width: 1.913vw;
+                        height: 1.719vw;
+                        margin-right: 0.781vw;
+                    }
+                    .ph{
+                        width: 1.719vw;
+                        height: 1.719vw;
+                        margin-right: 0.781vw;
+                    }
+                    .mail{
+                        width: 1.958vw;
+                        height: 1.719vw;
+                        margin-right: 0.781vw;
+                    }
+                    .git{
+                        width: 1.719vw;
+                        height: 1.719vw;
+                        margin-right: 0.781vw;
+                    }
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        .rsme-b{
+            margin-right:3.125vw;
+            .bd-c{
+                padding: 0.781vw 0;
+                border-bottom: 0.078vw solid $black;
+            }
+            .cb-c{
+                border-bottom: none;
+            }
+            h2{
+                font-weight: 600;
+                font-size: 1.875vw;
+                line-height: 2.578vw;
+                margin-bottom: 0.781vw;
+            }
+            h3{
+                font-weight: 600;
+                font-size: 1.563vw;
+                line-height: 2.109vw;
+                margin-bottom: 0.781vw;
+            }
+            h4{
+                font-size: 1.563vw;
+                line-height: 2.109vw;
+                margin-bottom: 0.781vw;
+            }
+            ul{
+                padding-left: 2.344vw;
+                margin: 0;
+                margin-bottom: 0.781vw;
+                li{
+                    font-size: 1.484vw;
+                    line-height: 2.031vw;
+                    margin-bottom: 0.781vw;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                    &::before{
+                        content: unset;
+                        margin-right: 1.172vw;
+                    }
+                    &::marker{
+                        content: unset;
+                        margin-right: 1.172vw;
+                    }
+                }
+            }
+        }
+        .pdf-l{
+            width: 5.098vw;
+            height: 2.344vw;
+            margin-top: 3.125vw;
+        }
+    }
+}

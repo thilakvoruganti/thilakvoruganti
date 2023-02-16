@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react'
-import { useLocation, useNavigate} from 'react-router-dom'
+import { Link, useLocation, useNavigate} from 'react-router-dom'
 import { usePort } from '../context'
 
 const Navbar = () => {
@@ -15,6 +15,8 @@ const Navbar = () => {
   const [tmenu, setTmenu] = useState(false)
 
   const [breadcrumb, setBreadcrumb] = useState('Aboutme')
+
+  const[resume,setResume] = useState(false)
 
   const ref = useRef()
 
@@ -35,13 +37,19 @@ const Navbar = () => {
       setLogoc({ color1: '#DADCF1', color2: '#6BC25C', color3: '#9A82C2' })
       setBreadcrumb('Timeline')
     }
+    if(location.pathname === '/resume'){
+      setResume(true)
+    }
+    else{
+      setResume(false)
+    }
   },[location.pathname])
 
 
 
   return (
     <>
-      <nav className='nvgtn'>
+      <nav className={`nvgtn ${resume?'d-none':''}`}>
         <div className='logo-c' onClick={() => {
           setBreadcrumb('Aboutme')
           navigate('/')
@@ -97,17 +105,17 @@ const Navbar = () => {
               </svg>
             </a>
           </div>
-          <div className='resume-c'>
+          <Link className='resume-c' to={'/resume'} target="_blank">
             <div className='resume'>Resume</div>
             <div className='arw-con'>
               <svg className='arw' xmlns="http://www.w3.org/2000/svg" width="42" height="24" viewBox="0 0 42 24" fill="none">
                 <path d="M41.0607 13.0607C41.6464 12.4749 41.6464 11.5251 41.0607 10.9393L31.5147 1.3934C30.9289 0.807611 29.9792 0.807611 29.3934 1.3934C28.8076 1.97919 28.8076 2.92893 29.3934 3.51472L37.8787 12L29.3934 20.4853C28.8076 21.0711 28.8076 22.0208 29.3934 22.6066C29.9792 23.1924 30.9289 23.1924 31.5147 22.6066L41.0607 13.0607ZM0 13.5H40V10.5H0V13.5Z" fill="white" />
               </svg>
             </div>
-          </div>
+          </Link>
         </div>
       </nav>
-      <nav className="navbar nvgtn-m">
+      <nav className={`navbar nvgtn-m ${resume?'d-none':''}`}>
         <div className={`logo-c ${tmenu ? 'd-none' : ''}`} onClick={() => {
           setBreadcrumb('/')
           navigate('/')

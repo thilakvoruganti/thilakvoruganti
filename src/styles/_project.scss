@@ -159,30 +159,30 @@
     .ipt{
         display: grid;
         grid-template-areas: 'ttc' 'ov' 'tg';
-        margin-top: 20px;
+        margin-top: 4.831vw;
         .tt-c{
-            padding: 40.001px 21.499px;
+            padding: 9.662vw 5.193vw;
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-direction: column;
             border-radius: $radius-t;
             grid-area: ttc;
-            margin-bottom: 9.998px;
+            margin-bottom: 2.415vw;
             h1{
-                margin-bottom: 14.999px;
+                margin-bottom: 3.623vw;
             }
             .bt-c{
                 display: flex;
                 flex-direction: unset;
                 button{
-                    font-size: 20px;
-                    line-height: 27.001px;
-                    border-width: 3.001px;
+                    font-size: 4.831vw;
+                    line-height: 6.522vw;
+                    border-width: 0.725vw;
                     border-style: solid;
-                    padding: 5.999px 29.998px;
-                    margin-bottom: 0px;
-                    margin-right: 20px;
+                    padding: 1.449vw 7.246vw;
+                    margin-bottom: 0vw;
+                    margin-right: 4.831vw;
                     border-radius: $radius-t;
                     background: none;
                     &:last-child{
@@ -196,16 +196,16 @@
             }
         }
         .ov{
-            padding: 40.001px 27.999px;
+            padding: 9.662vw 6.763vw;
             border-radius: $radius-mc;
             min-width: unset;
             height: unset;
             grid-area: ov;
-            margin-right: 0px;
-            margin-bottom: 9.998px;
+            margin-right: 0vw;
+            margin-bottom: 2.415vw;
         }
         .tg{
-            padding: 40.001px 27.999px;
+            padding: 9.662vw 6.763vw;
             border-radius: $radius-mc;
             max-width: unset;
             height: unset;

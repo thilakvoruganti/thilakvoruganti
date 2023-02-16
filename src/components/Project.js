@@ -10,13 +10,19 @@ const Project = () => {
     const {setLogoc,bcpts,setBcpts} = usePort()
 
     useEffect(()=>{
-        data.map((element)=>{
-            if(element.key === params.slug){
-                setPdata(element)
-                setLogoc({ color1: element.logocolor, color2: element.logocolor, color3: element.logocolor})
-                setBcpts({...bcpts,bc:element.logocolor,tc:element.bctcolor})
-            }
-        })
+        const projectColor = () => {
+            
+            data.map((element)=>{
+                if(element.key === params.slug){
+                    setPdata(element)
+                    setLogoc({ color1: element.logocolor, color2: element.logocolor, color3: element.logocolor})
+                    setBcpts({...bcpts,bc:element.logocolor,tc:element.bctcolor})
+                }
+                return null;
+            })
+        }
+        projectColor()
+
     },[])
 
 
@@ -25,7 +31,7 @@ const Project = () => {
         <div className='tt-c' style={{color:pdata?.pcolor, backgroundColor:pdata?.scolor}}>
             <h1>{pdata?.title}</h1>
             <div className='bt-c'>
-                <button style={{color:pdata?.pcolor,borderColor:pdata?.pcolor}}><a target="_blank" href={pdata.link} style={{color:pdata?.pcolor}}>{pdata?.linktext}</a></button>
+                <button style={{color:pdata?.pcolor,borderColor:pdata?.pcolor}}><a target="_blank" rel="noopener noreferrer" href={pdata.link} style={{color:pdata?.pcolor}}>{pdata?.linktext}</a></button>
                 <button style={{color:pdata?.pcolor,borderColor:pdata?.pcolor}} onClick={()=>{
                     navigate('/projects')
                 }}>Go Back</button>
