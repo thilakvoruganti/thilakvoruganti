@@ -15,7 +15,7 @@ const Footer = () => {
     else{
       setFooter(false)
     }
-  },[])
+  },[location.pathname])
 
   return (
     <section className={`ftr ${footer?'d-none':''}`}>

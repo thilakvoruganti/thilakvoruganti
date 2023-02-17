@@ -10,7 +10,7 @@ const Navbar = () => {
   const navigate = useNavigate()
   const location = useLocation()
 
-  const { logoc, setLogoc, bcpts } = usePort()
+  const { logoc, bcpts } = usePort()
 
   const [tmenu, setTmenu] = useState(false)
 
@@ -23,18 +23,15 @@ const Navbar = () => {
   
   useEffect(() => {
     if (location.pathname === '/') {
-      setLogoc({ color1: '#8D8D8D', color2: '#000000', color3: '#C3DA37' })
       setBreadcrumb('Aboutme')
     }
     if (location.pathname === '/projects') {
-      setLogoc({ color1: '#DFB921', color2: '#839292', color3: '#9A82C2' })
       setBreadcrumb('Projects')
     }
     if (location.pathname.includes('/projects/')) {
       setBreadcrumb('Projects')
     }
     if (location.pathname === '/timeline') {
-      setLogoc({ color1: '#DADCF1', color2: '#6BC25C', color3: '#9A82C2' })
       setBreadcrumb('Timeline')
     }
     if(location.pathname === '/resume'){
