@@ -1,21 +1,23 @@
-<svg width="87" height="40" viewBox="0 0 87 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
   <style>
     rect{
-        fill:black;
+        fill:white;
     }
     path{
+        fill:white;
+    }
+    .bg{
         fill:black;
     }
         @media (prefers-color-scheme: dark) {
-            rect{
-                fill:white;
-            }
-            path{
-                fill:white;
+            .bg{
+                fill:transparent;
             }
         }
   </style>
-<rect  x="10" width="20" height="40" fill="black"/>
-<rect  width="40" height="10" fill="black"/>
-<path  d="M87 0H44L65.5 40L87 0Z" fill="black"/>
+<rect class="bg" width="80" height="80"/>
+<rect x="16.8965" y="26" width="13.7931" height="27.5862" />
+<rect x="10" y="26" width="27.5862" height="6.89655"/>
+<path d="M70 26H40.3448L55.1724 53.5862L70 26Z"/>
 </svg>
+

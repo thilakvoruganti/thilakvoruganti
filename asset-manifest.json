@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/thilakvoruganti/static/css/main.5098a2d0.css",
-    "main.js": "/thilakvoruganti/static/js/main.b5de46a8.js",
+    "main.css": "/thilakvoruganti/static/css/main.92c529d1.css",
+    "main.js": "/thilakvoruganti/static/js/main.b3734775.js",
     "static/media/tvb.png": "/thilakvoruganti/static/media/tvb.6eb9f3ed438a41a7b496.png",
     "index.html": "/thilakvoruganti/index.html",
-    "main.5098a2d0.css.map": "/thilakvoruganti/static/css/main.5098a2d0.css.map",
-    "main.b5de46a8.js.map": "/thilakvoruganti/static/js/main.b5de46a8.js.map"
+    "main.92c529d1.css.map": "/thilakvoruganti/static/css/main.92c529d1.css.map",
+    "main.b3734775.js.map": "/thilakvoruganti/static/js/main.b3734775.js.map"
   },
   "entrypoints": [
-    "static/css/main.5098a2d0.css",
-    "static/js/main.b5de46a8.js"
+    "static/css/main.92c529d1.css",
+    "static/js/main.b3734775.js"
   ]
 }
